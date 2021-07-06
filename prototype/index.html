@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,user-scalable=no"/>
+	<title>기업채용콘텐츠 프로토타입</title>
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:@300;400;500;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+<div class="container">
+	<div class="sel_type_wrap">
+		<h2>아래의 유형 중 희망하는 프로토타입을 선택하세요.</h2>
+		<ul class="pt_wrap clearfix">
+			<li data-img="pt01" class="on"><img src="https://cdn.jsdelivr.net/gh/kang2oon/entCompany/thumb_pt01.png" alt="채용공고 형" /><span data-tit="채용공고 형"></span></li>
+			<li data-img="pt02"><img src="https://cdn.jsdelivr.net/gh/kang2oon/entCompany/thumb_pt02.png" alt="브로슈어 형" /><span data-tit="브로슈어 형"></span></li>
+			<li data-img="pt03"><img src="https://cdn.jsdelivr.net/gh/kang2oon/entCompany/thumb_pt03.png" alt="인포그래픽 형" /><span data-tit="인포그래픽 형"></span></li>
+			<li data-img="pt04"><img src="https://cdn.jsdelivr.net/gh/kang2oon/entCompany/thumb_pt04.png" alt="SNS 형" /><span data-tit="SNS 형"></span></li>
+			<li data-img="pt05"><img src="https://cdn.jsdelivr.net/gh/kang2oon/entCompany/thumb_pt05.png" alt="매거진 형" /><span data-tit="매거진 형"></span></li>
+		</ul>
+		<div class="navi"></div>
+	</div>
+	<div class="preview_wrap">
+		<img src="https://cdn.jsdelivr.net/gh/kang2oon/entCompany/pt01.jpg" alt="" />
+	</div>
+</div>
+	
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js" ></script>
+<script>
+	$(document).ready(function(){
+		var sel_height = $('.sel_type_wrap').height() + 21;
+		$('.preview_wrap').css({height:'calc(100vh - ' + sel_height + 'px)'});
+		$('.pt_wrap li').click(function(){
+			$('.pt_wrap li').removeClass('on');
+			$(this).addClass('on');
+			imgNm = $(this).attr('data-img');
+			imgUrl = "https://cdn.jsdelivr.net/gh/kang2oon/entCompany/"+imgNm+".jpg";
+			$('.preview_wrap img').attr('src',imgUrl);
+		});
+		$('.navi').click(function(){
+			nvBar = $('.sel_type_wrap');
+			nvBar.toggleClass('off');
+			if(nvBar.hasClass('off')){
+				$('.preview_wrap').css({height:'calc(100vh - 5px)'});
+			}else{
+				$('.preview_wrap').css({height:'calc(100vh - ' + sel_height + 'px)'});
+			}
+		});
+	});
+</script>
+</body>
+</html>
