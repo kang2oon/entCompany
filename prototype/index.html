@@ -10,7 +10,7 @@
 <body>
 <div class="container">
 	<div class="sel_type_wrap">
-		<h2>아래의 유형 중 희망하는 프로토타입을 선택하세요.</h2>
+		<h2>아래의 5가지 유형 중 제작을 희망하는 프로토타입을 확인해보세요.</h2>
 		<ul class="pt_wrap clearfix">
 			<li data-img="pt01" class="on"><img src="https://cdn.jsdelivr.net/gh/kang2oon/entCompany/prototype/images/thumb_pt01.png" alt="채용공고 형" /><span data-tit="채용공고 형"></span></li>
 			<li data-img="pt02"><img src="https://cdn.jsdelivr.net/gh/kang2oon/entCompany/prototype/images/thumb_pt02.png" alt="브로슈어 형" /><span data-tit="브로슈어 형"></span></li>
@@ -36,6 +36,7 @@
 			imgNm = $(this).attr('data-img');
 			imgUrl = "https://cdn.jsdelivr.net/gh/kang2oon/entCompany/prototype/images/"+imgNm+".jpg";
 			$('.preview_wrap img').attr('src',imgUrl);
+			$('.preview_wrap').scrollTop(0);
 		});
 		$('.navi').click(function(){
 			nvBar = $('.sel_type_wrap');
