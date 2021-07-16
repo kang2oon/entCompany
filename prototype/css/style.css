@@ -1,0 +1,97 @@
+@charset "utf-8";
+
+/* 공통 css */
+html {font-size: 10px}
+body {font-size: 1.6rem}
+.containerNew {position: relative;width: 1260px;margin: 0 auto;}
+.white{color: #fff}
+.btn_wrap {}
+.btn_wrap > *{display: inline-block;}
+.section{margin: 6.0rem 0}
+.section02{margin: 3.0rem 0}
+
+/*-----------프로토타입 공통 영역 start----------*/
+/* 프로토타입 상단 */
+.prototype #tn_main_banner{background-position: center;background-size: cover;background-repeat: no-repeat;padding: 70px 0;}
+.prototype #tn_main_banner .txt_area{display: flex;justify-content:space-between}
+.prototype #tn_main_banner .company_cont ul {display: flex;}
+.prototype #tn_main_banner .company_cont ul li{display: flex;align-items: center;margin-right: 55px}
+.prototype #tn_main_banner .company_cont ul li:last-child{margin-right: 0}
+.prototype #tn_main_banner .company_cont ul li span{font-size: 1.6rem;margin-right: 10px;}	
+.prototype #tn_main_banner .company_cont ul li strong{font-size: 2.0rem}
+.prototype #tn_main_banner .company_cont .btn_wrap {margin-top: 3.5rem;}
+.prototype #tn_main_banner .company_cont .btn_wrap a:last-child{margin-right: 0}
+.prototype #tn_main_banner .company_ico {margin-top: -70px;}
+.prototype #tn_main_banner .company_ico > div{border-radius: 0 0px 10px 10px;padding: 30px 10px;text-align: center;}
+.prototype #tn_main_banner .company_ico em{background: url(../images/ci_ico.png);width: 40px;height: 40px;display: inline-block}
+.prototype #tn_main_banner .company_ico p{text-align: center;font-size: 1.4rem;margin-top: 5px}
+.prototype .tit01{font-size: 3.2rem;}
+.prototype .btn{display: inline-block;}
+
+/* 프로토타입 상단 플로팅 메뉴 */
+.prototype .float_menu{}
+.prototype .float_menu ul{display: flex;}
+.prototype .float_menu ul li{font-size: 1.8rem;;}
+.prototype .float_menu ul li a{display: block;}
+
+
+/*-----------프로토타입 공통 영역 end----------*/
+
+
+/*---------- 프로토타입 : 1_채용공고형 start---------------*/
+.prototype.type01{}
+.prototype.type01 .float_top .txt_area{color: #fff;}
+.prototype.type01 #tn_main_banner .company_cont .btn_wrap .like_btn:after{content: '♥';display: block;font-size: 2.2rem;position: absolute;right: 15px;top: 50%;transform: translateY(-50%);}
+.prototype.type01 #tn_main_banner .company_cont .btn_wrap .go_btn:after{content: '→';display: block;font-size: 2.2rem;position: absolute;right: 15px;top: 50%;transform: translateY(-50%);}
+.prototype.type01 #tn_main_banner .company_ico.ci_blue > div{background: #437cff;color: #fff;}
+.prototype.type01 #tn_main_banner .company_cont .btn_wrap a{position: relative;border: 1px solid #fff;font-size:1.6rem;padding: 7px 15px;border-radius: 20px;width: 200px;position: relative;margin-right: 15px} 
+
+/* 상단 플로팅 메뉴 */
+.prototype.type01 .float_menu{border-top: 1px solid #ddd;border-bottom: 1px solid #ddd;}
+.prototype.type01 .float_menu ul li{padding: 20px 10px;margin-right: 30px;color: #919191}
+.prototype.type01 .float_menu ul li.active{position: relative;color: #000;font-weight: 500}
+.prototype.type01 .float_menu ul li.active:after{content: '';display: block;height: 3px;width: 100%;background: #437cff;position: absolute;left: 0;bottom: -1.5px;}
+.prototype.type01 .float_menu ul li.active:before{content: '';display: block;width: 10px;height: 10px;background: #ff1c31;border-radius: 50%;position: absolute;right: 0;top: 10px}
+.prototype.type01 .float_menu ul li:hover,
+.prototype.type01 .float_menu ul li:active,
+.prototype.type01 .float_menu ul li:focus {position: relative;color: #000;font-weight: 500}
+.prototype.type01 .float_menu ul li:hover:after,
+.prototype.type01 .float_menu ul li:active:after,
+.prototype.type01 .float_menu ul li:focus:after{content: '';display: block;height: 3px;width: 100%;background: #437cff;position: absolute;left: 0;bottom: -1.5px;}
+.prototype.type01 .float_menu ul li:hover:before,
+.prototype.type01 .float_menu ul li:active:before,
+.prototype.type01 .float_menu ul li:focus:before{content: '';display: block;width: 10px;height: 10px;background: #ff1c31;border-radius: 50%;position: absolute;right: 0;top: 10px}
+
+/*채용공고형 모듈 01 */
+.prototype.type01 .module01{}
+.prototype.type01 .module01 .gj_logo{display: block;margin: auto;}
+.prototype.type01 .module01 .intro_set{display: flex;justify-content: center;}
+.prototype.type01 .module01 .intro_set li{text-align: center;margin-right: 80px;}
+.prototype.type01 .module01 .intro_set li:last-child{margin-right: 0}
+.prototype.type01 .module01 .intro_set em{display: block;width: 140px;height: 140px;background-color: #f8f8f8;background-position: center;background-repeat: no-repeat;border-radius:  50%;margin: auto;}
+.prototype.type01 .module01 .intro_set .tit{font-size: 2.0rem;margin-top: 1.0rem;}
+.prototype.type01 .module01 .intro_set strong{font-size: 3.0rem;}
+.prototype.type01 .module01 .intro_set .text{color: #727272;font-size: 1.7rem;margin-top: 5px}
+
+.prototype.type01 .module01 .intro_set em.ico01{background-image: url(../images/jp_md01_ico01.png)}
+.prototype.type01 .module01 .intro_set em.ico02{background-image: url(../images/jp_md01_ico02.png)}
+.prototype.type01 .module01 .intro_set em.ico03{background-image: url(../images/jp_md01_ico03.png)}
+.prototype.type01 .module01 .intro_set em.ico04{background-image: url(../images/jp_md01_ico04.png)}
+
+.prototype.type01 .module01 .intro_text{display: flex;justify-content: center;margin-top: 8.0rem}
+.prototype.type01 .module01 .intro_text li{margin-right: 100px;text-align: center;}
+.prototype.type01 .module01 .intro_text li:last-child{margin-right: 0;}
+.prototype.type01 .module01 .intro_text li .text{font-size: 1.7rem;color: #727272;}
+.prototype.type01 .module01 .intro_text li .tit{font-size: 3.0rem;font-weight: bold;margin-top: 5px;}
+
+/*채용공고형 모듈 02 */
+.prototype.type01 .module02{}
+.prototype.type01 .module02 .jobop_list{}
+.prototype.type01 .module02 .jobop_list table{width: 100%;table-layout:fixed;border-collapse: collapse;border: 1px solid #ddd}
+.prototype.type01 .module02 .jobop_list thead {border-top: 1px solid #ddd;}
+.prototype.type01 .module02 .jobop_list thead th {background: #f0f0f0;font-size: 2.2rem;padding: 2.5rem;}
+.prototype.type01 .module02 .jobop_list tr{border-bottom: 1px solid #ddd}
+.prototype.type01 .module02 .jobop_list td{padding: 2.0rem;font-size: 1.8rem;text-align: center;color: #696969}
+.prototype.type01 .module02 .jobop_list .btn{padding: 10px 20px;font-size: 1.6rem;color: #fff;background: #ff1c31;border-radius: 10px;margin-left: 1.5rem;}
+.prototype.type01 .module02 .jobop_view_wrap{background: url(../images/jp_md02_bg.png) no-repeat;}
+.prototype.type01 .module02 .jobop_view { }
