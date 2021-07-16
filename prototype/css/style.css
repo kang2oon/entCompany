@@ -9,6 +9,14 @@ body {font-size: 1.6rem}
 .btn_wrap > *{display: inline-block;}
 .section{margin: 6.0rem 0}
 .section02{margin: 3.0rem 0}
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.gfontM{font-family: 'GmarketSansMedium';}
 
 /*-----------프로토타입 공통 영역 start----------*/
 /* 프로토타입 상단 */
@@ -27,7 +35,6 @@ body {font-size: 1.6rem}
 .prototype #tn_main_banner .company_ico p{text-align: center;font-size: 1.4rem;margin-top: 5px}
 .prototype .tit01{font-size: 3.2rem;}
 .prototype .btn{display: inline-block;}
-
 /* 프로토타입 상단 플로팅 메뉴 */
 .prototype .float_menu{}
 .prototype .float_menu ul{display: flex;}
@@ -40,11 +47,16 @@ body {font-size: 1.6rem}
 
 /*---------- 프로토타입 : 1_채용공고형 start---------------*/
 .prototype.type01{}
+.prototype.type01 .highlight{display: inline;box-shadow: 0 -15px 0 0 inset #fbff95;color: #000;padding: 0 5px}
+.prototype.type01 .red{color: #ff1c31}
+.prototype.type01 .big_btn{font-size: 2.0rem;background: transparent;padding: 15px;width: 375px;border-radius: 5px;}
+.prototype.type01 .white_btn{border: 1px solid #fff;color: #fff}
 .prototype.type01 .float_top .txt_area{color: #fff;}
 .prototype.type01 #tn_main_banner .company_cont .btn_wrap .like_btn:after{content: '♥';display: block;font-size: 2.2rem;position: absolute;right: 15px;top: 50%;transform: translateY(-50%);}
 .prototype.type01 #tn_main_banner .company_cont .btn_wrap .go_btn:after{content: '→';display: block;font-size: 2.2rem;position: absolute;right: 15px;top: 50%;transform: translateY(-50%);}
 .prototype.type01 #tn_main_banner .company_ico.ci_blue > div{background: #437cff;color: #fff;}
 .prototype.type01 #tn_main_banner .company_cont .btn_wrap a{position: relative;border: 1px solid #fff;font-size:1.6rem;padding: 7px 15px;border-radius: 20px;width: 200px;position: relative;margin-right: 15px} 
+
 
 /* 상단 플로팅 메뉴 */
 .prototype.type01 .float_menu{border-top: 1px solid #ddd;border-bottom: 1px solid #ddd;}
@@ -84,7 +96,7 @@ body {font-size: 1.6rem}
 .prototype.type01 .module01 .intro_text li .text{font-size: 1.7rem;color: #727272;}
 .prototype.type01 .module01 .intro_text li .tit{font-size: 3.0rem;font-weight: bold;margin-top: 5px;}
 
-/*채용공고형 모듈 02 */
+/*채용공고형 모듈 02 공고보기*/
 .prototype.type01 .module02{}
 .prototype.type01 .module02 .jobop_list{}
 .prototype.type01 .module02 .jobop_list table{width: 100%;table-layout:fixed;border-collapse: collapse;border: 1px solid #ddd}
@@ -93,5 +105,44 @@ body {font-size: 1.6rem}
 .prototype.type01 .module02 .jobop_list tr{border-bottom: 1px solid #ddd}
 .prototype.type01 .module02 .jobop_list td{padding: 2.0rem;font-size: 1.8rem;text-align: center;color: #696969}
 .prototype.type01 .module02 .jobop_list .btn{padding: 10px 20px;font-size: 1.6rem;color: #fff;background: #ff1c31;border-radius: 10px;margin-left: 1.5rem;}
-.prototype.type01 .module02 .jobop_view_wrap{background: url(../images/jp_md02_bg.png) no-repeat;}
-.prototype.type01 .module02 .jobop_view { }
+.prototype.type01 .module02 .jobop_view_wrap{background: url(../images/jp_md02_bg.png) no-repeat bottom;padding-bottom: 6.0rem}
+.prototype.type01 .module02 .jobop_view {background: #fff;border: 3px solid #437cff;padding: 6.0rem;}
+.prototype.type01 .module02 .jobop_view_top{display: flex;font-size: 2.4rem;font-weight: bold;border-bottom: 2px solid #000;margin-bottom: 3.0rem;padding-bottom: 3.0rem;}
+.prototype.type01 .module02 .jobop_view_top strong{width: 100px;}
+.prototype.type01 .module02 .jobop_view_top p {width: calc(100% - 100px)}
+.prototype.type01 .module02 .jobop_view_cont{display: flex;}
+.prototype.type01 .module02 .jobop_view_cont > div {flex: 1}
+.prototype.type01 .module02 .jobop_view_cont > div > .red{color:#ff1c31; font-size: 20px;font-weight: bold}
+.prototype.type01 .module02 .jobop_view_cont > div > ul li{display: flex;margin-top: 2.5rem;}
+.prototype.type01 .module02 .jobop_view_cont > div > ul li strong{font-size: 1.7rem;font-weight: 500;width: 100px}
+.prototype.type01 .module02 .jobop_view_cont > div > ul li .text{font-size: 1.7rem;color: #727272;font-weight: 500;width: calc(100% - 100px)}
+
+/*채용공고형 모듈02 채용절차*/
+.prototype.type01 .module02 .job_step{margin: 8.0rem 0;display: flex;justify-content:space-between}
+.prototype.type01 .module02 .job_step .ico{width: 140px;height: 140px;display: block;border-radius: 50%;margin: auto;}
+.prototype.type01 .module02 .job_step p {color: #fff;font-size: 2.0rem;text-align: center;margin-top: 1.5rem;}
+.prototype.type01 .module02 .job_step .ico.ico01{background: url(../images/jp_md02_ico01.png) #fff no-repeat center;}
+.prototype.type01 .module02 .job_step .ico.ico02{background: url(../images/jp_md02_ico02.png) #fff no-repeat center;}
+.prototype.type01 .module02 .job_step .ico.ico03{background: url(../images/jp_md02_ico03.png) #fff no-repeat center;}
+.prototype.type01 .module02 .job_step .ico.ico04{background: url(../images/jp_md02_ico04.png) #fff no-repeat center;}
+.prototype.type01 .module02 .job_step  .arrow{display: block;text-indent: -9999px;background: url(../images/jp_md02_arrow.png) no-repeat center;width: 30px;height: 140px;margin: 0 40px}
+.prototype.type01 .module02 .big_btn{position: relative;}
+.prototype.type01 .module02 .big_btn:before{content: '';display: block;width: 45px;height: 45px;background: url(../images/jp_md02_qm.png) no-repeat center #ff1c31;border-radius: 50%;position: absolute;right: -22.5px;top: -22.5px;}
+
+
+/*채용공고형 모듈03 자소서 문항별 작성가이드*/
+.prototype.type01 .module03{background: url(../images/jp_md03_bg.png) no-repeat;}
+.prototype.type01 .module03 .self_intro_wrap{background: #fff;padding: 5.0rem 7.0rem;border: 1px solid #ddd;position: relative;box-shadow: 2px 0px 7px rgba(0, 0, 0, 0.08)}
+.prototype.type01 .module03 .self_intro_wrap .si_area {margin-bottom: 4.0rem;padding-bottom: 4.0rem;border-bottom: 1px solid #dddddd;}
+.prototype.type01 .module03 .self_intro_wrap .si_area:last-child{border-bottom: 0;padding-bottom: 0}
+.prototype.type01 .module03 .qnum{font-family: 'GmarketSansMedium';color:#437cff;font-size: 4.0rem; }
+.prototype.type01 .module03 .tit {font-size: 2.4rem;font-weight: 400;margin: 10px 0}
+.prototype.type01 .module03 .text {font-size: 2.0rem;color: #7d7d7d;}
+.prototype.type01 .module03 .recent_question{background: #1a4fba;padding: 4.0rem 1.0rem;border-radius: 15px;position: relative;display: flex;padding-bottom: 0;align-items:flex-start;overflow: hidden}
+.prototype.type01 .module03 .rq_cont{text-align: center;padding-bottom: 4.0rem;}
+.prototype.type01 .module03 .rq_tit{color: #fbff95;font-size: 4.0rem;font-family: 'GmarketSansMedium';position: relative;display: flex;align-items: center;margin-bottom: 2.0rem;justify-content: center;}
+.prototype.type01 .module03 .rq_tit:after{content: '';display: inline-flex;background: url(../images/jp_md03_si_ico.png) no-repeat center;width: 58px;height: 52px;margin-left: 2.0rem}
+.prototype.type01 .module03 .rq_text{color: #fff;}
+.prototype.type01 .module03 .rq_text p {font-size: 1.9rem;}
+.prototype.type01 .module03 .rq_text p strong{font-size: 3.0rem;}
+.prototype.type01 .module03 .rq_img{margin-bottom: -15px}
