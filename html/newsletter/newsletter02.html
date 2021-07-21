@@ -4,6 +4,15 @@
 	<meta charset="UTF-8">
 	<title>탐뉴 웹진
 </title>
+<script type="text/javascript">
+    function popupCenter(href, w, h) {
+	var xPos = (document.body.offsetWidth/2) - (w/2); // 가운데 정렬
+	xPos += window.screenLeft; // 듀얼 모니터일 때
+	var yPos = (document.body.offsetHeight/2) - (h/2);
+
+	window.open('https://ent.kgoon.pw/html/newsletter/newsletter02_pop.html', "pop_name", "width=520, height=520, left="+xPos+", top="+yPos+", menubar=yes, status=yes, titlebar=yes, resizable=yes");
+}
+    </script>
 </head>
 <body>
     <table align="center" style="width:100%;background-color:#fff;" cellspacing="0" cellpadding="0" border="0">
@@ -102,10 +111,7 @@
     - 기업 추천 이벤트 기간 내에 기업을 여러 번 추천 및 참여가 가능합니다.<br />
     - 혜택 증정은 콘텐츠 제작완료 후 일괄 지급 됩니다.
     </p>
-    <a  href="javascript:void(0);" onclick="window.open('ent.kgoon.pw/html/newsletter/newsletter02_pop.html', '_blank', 
-    'top=140, left=300, width=500, height=500, menubar=no, 
-     toolbar=no, location=no, directories=no, status=no, 
-     scrollbars=no, copyhistory=no, resizable=no')" style="margin-top: 20px;display: inline-block;padding:10px 20px;border-radius: 10px;background: #0e0c66;color:#fff;text-decoration: none;text-align: center;">기업 참여 기준 자세히 보기</a>
+    <a  href="javascript:void(0);"  onclick="popupCenter()" style="margin-top: 20px;display: inline-block;padding:10px 20px;border-radius: 10px;background: #0e0c66;color:#fff;text-decoration: none;text-align: center;">기업 참여 기준 자세히 보기</a>
 </div>
      
     
@@ -129,7 +135,6 @@
 </a>
 </div>
 </td>
-
 </tr>
 </table>
    
