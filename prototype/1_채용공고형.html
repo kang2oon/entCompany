@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/billboard.js/3.1.2/billboard.min.css" integrity="sha512-0aPqhSm1KxBOvrY4qw2oqRubidEj4ZNZLJRzOCrpuOaEP3WaKKF+EgF+9TCumJlyCAF3URpouKUmu4cXPVHAHw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -63,24 +64,26 @@
                 <div class="containerNew">
                     <ul>
                         <li class="active">
-                            <a href="#">채용공고</a>
+                            <a href="#target01">채용공고</a>
                         </li>
                         <li>
-                            <a href="#">취업전략</a>
+                            <a href="#target02">취업전략</a>
                         </li>
                         <li>
-                            <a href="#">기업개요</a>
+                            <a href="#target03">기업개요</a>
                         </li>
                         <li>
-                            <a href="#">현직자 리뷰</a>
+                            <a href="#target04">현직자 리뷰</a>
                         </li>
                         <li>
-                            <a href="#">기업 뉴스</a>
+                            <a href="#target05">기업 뉴스</a>
                         </li>
                     </ul>
                 </div>
             </div>
             <!--//float_menu-->
+        </div>
+        <!--//상단-->
 
             <!--module01-->
             <div class="module01 section">
@@ -353,19 +356,119 @@
                             </div>
                         </div>
                         <!--//자소서 문항별 가이드-->
+
+
+                        <!--가산점 요인-->
+                        <div class="md3_warp section"
+                        > <h2 class="tit01 white">
+                            <span class="red">가산점</span> 요인
+                        </h2>
+                        <div class="white_box section02">
+                            <ul>
+                                <li>
+                                    <strong>자격증</strong> <p>FAT 1급 자격증, 웹디자인 기능사 자격증, TAT 자격증 외 회계실무 관련 자격증</p>
+                                </li>
+                                <li>
+                                    <strong>봉사활동</strong> <p>자원봉사 포털 1365 기준 봉사활동 시간</p>
+                                </li>
+                                <li>
+                                    <strong>공모전</strong> <p>동상 이상의 수상 이력</p>
+                                </li>
+                                <li>
+                                    <strong>어학점수</strong> <p>토익800점 이상, 토익스피킹 Lv.6 이상</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                        <!--//가산점 요인-->
+
+
+                                   <!--최근 입사자 합격 스펙-->
+                                   <div class="md3_warp md3_adImmg section"
+                                   > <h2 class="tit01 white">
+                                      최근 입사자 <span class="red">합격 스펙</span> 
+                                   </h2>
+                                   <div class="white_box section02">
+                                       <ul class="txt">
+                                           <li>
+                                               <strong>학점</strong> <p>3.4</p>
+                                           </li>
+                                           <li>
+                                               <strong>토익</strong> <p>750</p>
+                                           </li>
+                                           <li>
+                                               <strong>토익스피킹</strong> <p>Lv5</p>
+                                           </li>
+                                           <li>
+                                               <strong>외국어</strong> <p>1개</p>
+                                           </li>
+                                           <li>
+                                            <strong>자격증</strong> <p>2개</p>
+                                        </li>
+                                        <li>
+                                            <strong>봉사활동</strong> <p>150시간</p>
+                                        </li>
+                                       </ul>
+                                       <div class="radar_chart"></div>
+                                   </div>
+                               </div>
+                                   <!--// 최근 입사자 합격 스펙-->
+
                     </div>
                 </div>
                 <!--//module03-->
 
 
 
-            </div>
-            <!--//상단-->
 
         </div>
         <!-- //prototype type01 : 채용공고형  -->
-
+        <script src="https://d3js.org/d3.v6.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/billboard.js@1.11.0-next.1/dist/billboard.pkgd.min.js"></script>
         <script src="./js/jquery-3.2.1.min.js"></script>
         <script src="./js/imgLiquid-min.js"></script>
         <script src="./js/run.js"></script>
+      
+	<script>
+		var chart = bb.generate({
+			data: {
+				x: "x",
+				columns: [
+					["x", '학점','봉사활동','자격증', '외국어', '토익스피킹', '토익'],
+					["data1", 18, 15, 12, 8, 12, 12,10],
+				],
+				type: "radar", // for ESM specify as: radar()
+				labels: false,
+				  colors: {
+					  data1: "#ff2e69",
+				  }
+			},
+			legend: {
+				show: false
+			},
+			radar: {
+				axis: {
+					max: 20,
+
+				},
+				level: {
+					depth: 5,
+					text: {
+						show: false
+					}
+				},
+				direction: {
+					clockwise: false
+				}
+			},
+			point: {
+				r: 8
+			},
+			tooltip: {
+				show: false
+			},
+
+			bindto: ".radar_chart"
+		});
+	</script>
 </body></html>

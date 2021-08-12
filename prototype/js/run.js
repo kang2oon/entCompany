@@ -44,10 +44,10 @@
                 //스크롤의 위치가 상단에서 190보다 크면
                 if ($(window).scrollTop() > 190) {
                     /* if(window.pageYOffset >= $('원하는위치의엘리먼트').offset().top){ */
-                    $('.quick_menu').addClass("fixed");
+                    $('.float_top').addClass("fixed");
                     //위의 if문에 대한 조건 만족시 fixed라는 class를 부여함
                 } else {
-                    $('.quick_menu').removeClass("fixed");
+                    $('.float_top').removeClass("fixed");
                     //위의 if문에 대한 조건 아닌경우 fixed라는 class를 삭제함
                 }
             })
