@@ -68,14 +68,7 @@ $(document).ready(function () {
 	});
 	$('.counter').addClass('animated fadeInn');
 
-	// 스크롤 이벤트
-	 AOS.init();
-	
-	
 
-	function winResize() {
-		ovf.style.top = slider.offsetHeight + "px";
-	}
 
 	function winScroll() {
 		var op = 1 - (window.pageYOffset / slider.offsetHeight);
