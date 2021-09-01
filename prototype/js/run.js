@@ -72,16 +72,6 @@ $(document).ready(function () {
 	 AOS.init();
 	
 	
-	var ovf, slider;
-	$(function () {
-		ovf = this.getElementById("overflow");
-		slider = this.getElementById("slider");
-		winResize();
-		$(window).bind({
-			resize: winResize,
-			scroll: winScroll
-		});
-	});
 
 	function winResize() {
 		ovf.style.top = slider.offsetHeight + "px";
