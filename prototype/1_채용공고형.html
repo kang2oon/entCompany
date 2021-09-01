@@ -296,8 +296,8 @@
 					</div>
 					<div class="tct">
 						<button type="button" class="btn big_btn white_btn qm_btn">관심기업 등록하기
-						<span>관심기업으로 등록하면 채용 공고 마감일을 알람으로 받아보실 수 있습니다.</span>
-						<a href="javascript:vold(0)" title="도움말">도움말</a>
+							<span>관심기업으로 등록하면 채용 공고 마감일을 알람으로 받아보실 수 있습니다.</span>
+							<a href="javascript:vold(0)" title="도움말">도움말</a>
 						</button>
 					</div>
 					<!--//채용절차-->
@@ -470,7 +470,7 @@
 					<button type="button" class="btn big_btn blue_btn qm_btn">관심기업 등록하기
 						<span>관심기업으로 등록하면 채용 공고 마감일을 알람으로 받아보실 수 있습니다.</span>
 						<a href="javascript:vold(0)" title="도움말">도움말</a>
-						</button>
+					</button>
 				</div>
 			</div>
 			<!--//blue_bg-->
@@ -667,7 +667,7 @@
 									<img src="./images/jp_md04_style01_img.png" alt="피라미드 이미지">
 								</div>
 								<table class="table_style01">
-								<caption>동종업종내 위치 연도별 순위</caption>
+									<caption>동종업종내 위치 연도별 순위</caption>
 									<thead>
 										<tr>
 											<th scope="col">연도</th>
@@ -893,7 +893,7 @@
 						<div class="right">
 							<ul class="select_list">
 								<li>
-								<label for="occupation" class="hide">직무 선택</label>
+									<label for="occupation" class="hide">직무 선택</label>
 									<select class="select_style01 change_ev01" id="occupation">
 										<option selected value>직무</option>
 										<option value="개발">개발</option>
@@ -901,7 +901,7 @@
 									</select>
 								</li>
 								<li>
-								<label for="career" class="hide">경력 선택</label>
+									<label for="career" class="hide">경력 선택</label>
 									<select class="select_style01 change_ev02" id="career">
 										<option class="op-0" selected value>경력</option>
 										<option class="op-0" value="신입">신입</option>
@@ -933,7 +933,7 @@
 					<button type="button" class="btn big_btn blue_btn qm_btn">관심기업 등록하기
 						<span>관심기업으로 등록하면 채용 공고 마감일을 알람으로 받아보실 수 있습니다.</span>
 						<a href="javascript:vold(0)" title="도움말">도움말</a>
-						</button>
+					</button>
 				</div>
 
 				<div class="video_wrap section">
@@ -1226,25 +1226,23 @@
 		<!--module12-->
 		<div class="module12 section">
 			<div class="ctain">
-			<div class="location">
-				<strong>소재지</strong>
-				<p>경기도 부천시 원미구 부천로 136번길 어울마당(구, 원미구청) 3층</p>
+				<div class="location">
+					<strong>소재지</strong>
+					<p>경기도 부천시 원미구 부천로 136번길 어울마당(구, 원미구청) 3층</p>
+				</div>
 			</div>
-			
+
 			<div id="map"></div>
-
-			</div>
 			<!--잡아바에 업로드할시 appkey 변경 요망-->
-				<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=1ae4434f2b4cd5caa3ccfd96ebf12227"></script>
-				<script>
-					var container = document.getElementById('map');
-					var options = {
-						center: new kakao.maps.LatLng(33.450701, 126.570667),
-						level: 3
-					};
-
-					var map = new kakao.maps.Map(container, options);
-				</script>
+			<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=1ae4434f2b4cd5caa3ccfd96ebf12227"></script>
+			<script>
+				var container = document.getElementById('map'); //지도를 담을 영역의 DOM 레퍼런스
+				var options = { //지도를 생성할 때 필요한 기본 옵션
+					center: new kakao.maps.LatLng(33.450701, 126.570667), //지도의 중심좌표.
+					level: 3 //지도의 레벨(확대, 축소 정도)
+				};
+				var map = new kakao.maps.Map(container, options); //지도 생성 및 객체 리턴
+			</script>
 			<!--//module12-->
 		</div>
 	</div>
@@ -1253,7 +1251,6 @@
 	<script src="./js/jquery-3.2.1.min.js"></script>
 	<script src="https://d3js.org/d3.v6.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/billboard.js@1.11.0-next.1/dist/billboard.pkgd.min.js"></script>
-	<script src="./js/waypoints.min.js"></script>
 	<script src="./js/jquery.counterup.min.js"></script>
 	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.0.5/gsap.min.js"></script>
@@ -1370,8 +1367,8 @@
 				top: 20
 			}
 		});
-		
-		
+
+
 		// Animation
 
 
