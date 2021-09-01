@@ -2,446 +2,1390 @@
 <html lang="ko">
 
 <head>
-    <meta charset="UTF-8">
-    <title>채용공고형</title>
-    <meta name="viewport" content="width=device-width,user-scalable=yes" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="./css/normalize.css">
-    <link rel="stylesheet" href="./css/common.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/billboard.js/3.1.2/billboard.min.css" integrity="sha512-0aPqhSm1KxBOvrY4qw2oqRubidEj4ZNZLJRzOCrpuOaEP3WaKKF+EgF+9TCumJlyCAF3URpouKUmu4cXPVHAHw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<meta charset="UTF-8">
+	<title>채용공고형</title>
+	<meta name="viewport" content="width=device-width,user-scalable=yes" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<link rel="stylesheet" href="./css/common.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/billboard.js/3.1.2/billboard.min.css" integrity="sha512-0aPqhSm1KxBOvrY4qw2oqRubidEj4ZNZLJRzOCrpuOaEP3WaKKF+EgF+9TCumJlyCAF3URpouKUmu4cXPVHAHw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="./css/animate.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<link rel="stylesheet" href="./css/animate.css">
+	<link rel="stylesheet" href="./css/slick.css">
+	<link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
 
-    <!-- prototype type01 : 채용공고형  -->
-    <div class="prototype type01">
-        <!--상단-->
-        <div class="float_top">
-            <!--main_banner-->
-            <div id="tn_main_banner" style="background-image:url(./images/sky_bg.png)">
-                <!--containerNew-->
-                <div class="containerNew">
-                    <!--txt_area-->
-                    <div class="txt_area">
-                        <div class="logo">
-                            <img src="./images/gj_logo.png" alt="경기도일자리재단">
-                        </div>
-                        <div class="company_cont">
-                            <ul>
-                                <li>
-                                    <span>업종</span><strong>사회적기업 </strong>
-                                </li>
-                                <li>
-                                    <span>대표자</span><strong>제윤경 </strong>
-                                </li>
-                                <li>
-                                    <span>기업형태</span><strong>사회적기업 </strong>
-                                </li>
-                            </ul>
-                            <div class="btn_wrap">
-                                <a href="#" class="like_btn">관심기업등록</a>
-                                <a href="#" class="go_btn">공고 바로가기</a>
-                            </div>
-                        </div>
-                        <!--//company_cont-->
-                        <div class="company_ico ci_blue">
-                            <div> <em></em>
-                                <p>Consulting</p>
-                            </div>
-                        </div>
+	<!-- prototype type01 : 채용공고형  -->
+	<div class="prototype type01">
+		<!--상단-->
+		<div class="header_wrap style01">
+			<!--main_banner-->
+			<div id="tn_main_banner" style="background-image:url(./images/sky_bg.png)">
+				<!--ctain-->
+				<div class="ctain">
+					<!--txt_area-->
+					<div class="txt_area">
+						<div class="logo">
+							<img src="./images/gj_logo.png" alt="경기도일자리재단">
+						</div>
+						<div class="company_cont">
+							<ul>
+								<li>
+									<span>업종</span><strong>사회적기업 </strong>
+								</li>
+								<li>
+									<span>대표자</span><strong>제윤경 </strong>
+								</li>
+								<li>
+									<span>기업형태</span><strong>사회적기업 </strong>
+								</li>
+							</ul>
+							<div class="btn_wrap">
+								<a href="javascript:;" class="like_btn">관심기업등록<span>→</span></a>
+								<a href="javascript:;" class="go_btn">공고 바로가기<span>♥</span></a>
+							</div>
+						</div>
+						<!--//company_cont-->
+						<div class="company_ico">
+							<div> <em></em>
+								<p>Consulting</p>
+							</div>
+						</div>
 
-                    </div>
-                    <!--//txt_area-->
-                </div>
-                <!--//containerNew-->
-            </div>
-            <!--//main_banner-->
+					</div>
+					<!--//txt_area-->
+				</div>
+				<!--//ctain-->
+			</div>
+			<!--//main_banner-->
 
-            <!--float_menu-->
-            <div class="float_menu">
-                <!--containerNew-->
-                <div class="containerNew">
-                    <ul>
-                        <li class="active">
-                            <a href="#target01">채용공고</a>
-                        </li>
-                        <li>
-                            <a href="#target02">취업전략</a>
-                        </li>
-                        <li>
-                            <a href="#target03">기업개요</a>
-                        </li>
-                        <li>
-                            <a href="#target04">현직자 리뷰</a>
-                        </li>
-                        <li>
-                            <a href="#target05">기업 뉴스</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <!--//float_menu-->
-        </div>
-        <!--//상단-->
+			<!--float_menu-->
+			<div class="float_menu style01">
+				<!--ctain-->
+				<div class="ctain">
+					<ul>
+						<li class="active">
+							<a href="#target01">채용공고</a>
+						</li>
+						<li>
+							<a href="#target02">취업전략</a>
+						</li>
+						<li>
+							<a href="#target03">기업개요</a>
+						</li>
+						<li>
+							<a href="#target04">현직자 리뷰</a>
+						</li>
+						<li>
+							<a href="#target05">기업 뉴스</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!--//float_menu-->
+		</div>
+		<!--//상단-->
+		<!--module01-->
+		<div class="module01 section">
+			<div class="ctain">
+				<img src="./images/gj_ci.png" alt="경기도일자리재단 CI" class="gj_logo">
 
-            <!--module01-->
-            <div class="module01 section">
-                <div class="containerNew">
-                    <img src="./images/gj_ci.png" alt="경기도일자리재단 CI" class="gj_logo">
+				<!--intro_cont-->
+				<div class="intro_cont">
+					<ul class="intro_set section">
+						<li>
+							<em class="ico01"></em>
+							<p class="tit">
+								<strong>10</strong>억
+							</p>
+							<p class="text">자본금</p>
+						</li>
+						<li>
+							<em class="ico02"></em>
+							<p class="tit">
+								<strong>2016</strong>년 <strong>09</strong>월
+							</p>
+							<p class="text">설립년도
+							</p>
+						</li>
+						<li>
+							<em class="ico03"></em>
+							<p class="tit">
+								<strong>100</strong>명
+							</p>
+							<p class="text">사원수
+							</p>
+						</li>
+						<li>
+							<em class="ico04"></em>
+							<p class="tit">
+								<strong>1</strong>등급
+							</p>
+							<p class="text">신용등급</p>
+						</li>
+					</ul>
+					<!--//intro_set-->
+					<ul class="intro_text">
+						<li>
+							<p class="text">상세업종</p>
+							<p class="tit">사회적 기업</p>
+						</li>
+						<li>
+							<p class="text">기업인증</p>
+							<p class="tit">이노비즈 인증기업</p>
+						</li>
+					</ul>
+				</div>
+				<!--//intro_cont-->
 
-                    <!--intro_cont-->
-                    <div class="intro_cont">
-                        <ul class="intro_set section">
-                            <li>
-                                <em class="ico01"></em>
-                                <p class="tit">
-                                    <strong>10</strong>억
-                                </p>
-                                <p class="text">자본금</p>
-                            </li>
-                            <li>
-                                <em class="ico02"></em>
-                                <p class="tit">
-                                    <strong>2016</strong>년 <strong>09</strong>월
-                                </p>
-                                <p class="text">설립년도
-                                </p>
-                            </li>
-                            <li>
-                                <em class="ico03"></em>
-                                <p class="tit">
-                                    <strong>100</strong>명
-                                </p>
-                                <p class="text">사원수
-                                </p>
-                            </li>
-                            <li>
-                                <em class="ico04"></em>
-                                <p class="tit">
-                                    <strong>1</strong>등급
-                                </p>
-                                <p class="text">신용등급</p>
-                            </li>
-                        </ul>
-                        <!--//intro_set-->
-                        <ul class="intro_text">
-                            <li>
-                                <p class="text">상세업종</p>
-                                <p class="tit">사회적 기업</p>
-                            </li>
-                            <li>
-                                <p class="text">기업인증</p>
-                                <p class="tit">이노비즈 인증기업</p>
-                            </li>
-                        </ul>
-                    </div>
-                    <!--//intro_cont-->
+			</div>
+			<!--//ctain-->
+		</div>
+		<!--module01-->
 
-                </div>
-                <!--//containerNew-->
-            </div>
-            <!--module01-->
+		<!--module02-->
+		<div class="module02 section target" id="target01">
+			<div class="ctain">
+				<h2 class="tit01">
+					채용 공고
+				</h2>
+				<!--채용공고 목록-->
+				<div class="jobop_list section02">
+					<table>
+						<caption>채용공고 목록</caption>
+						<thead>
+							<tr>
+								<th scope="col">접수기간</th>
+								<th scope="col">채용제목</th>
+								<th scope="col">고용형태</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td class="date">2021.05. 31까지</td>
+								<td class="tlt tit">
+									<a href="javascript:;" class="textCut1">풀스택 개발자 채용 / 경력채용/ 급여 250만원</a>
+								</td>
+								<td class="type">
+									<span>정규직</span>
+									<button type="button" class="btn">지원하기</button>
+								</td>
+							</tr>
+							<tr>
+								<td class="date">상시채용</td>
+								<td class="tlt tit">
+									<a href="javascript:;" class="textCut1">풀스택 개발자 채용 / 경력채용/ 급여 250만원</a>
+								</td>
+								<td class="type">
+									<span>정규직</span>
+									<button type="button" class="btn">지원하기</button>
+								</td>
+							</tr>
+							<tr>
+								<td class="date">상시채용</td>
+								<td class="tlt tit">
+									<a href="javascript:;" class="textCut1">풀스택 개발자 채용 / 경력채용/ 급여 250만원</a>
+								</td>
+								<td class="type">
+									<span>정규직</span>
+									<button type="button" class="btn">지원하기</button>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<!--//채용공고 목록-->
+			</div>
 
-            <!--module02-->
-            <div class="module02 section target" id="target01">
-                <div class="containerNew">
-                    <h2 class="tit01">
-                        채용 공고
-                    </h2>
-                    <!--채용공고 목록-->
-                    <div class="jobop_list section02">
-                        <table>
-                            <caption>채용공고 목록</caption>
-                            <thead>
-                                <tr>
-                                    <th scope="col">접수기간</th>
-                                    <th scope="col">채용제목</th>
-                                    <th scope="col">고용형태</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td class="date">2021.05. 31까지</td>
-                                    <td class="tlt tit">
-                                        <a href="#" class="textCut1">풀스택 개발자 채용 / 경력채용/ 급여 250만원</a>
-                                    </td>
-                                    <td class="type">
-                                        <span>정규직</span>
-                                        <button type="button" class="btn">지원하기</button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="date">상시채용</td>
-                                    <td class="tlt tit">
-                                        <a href="#" class="textCut1">풀스택 개발자 채용 / 경력채용/ 급여 250만원</a>
-                                    </td>
-                                    <td class="type">
-                                        <span>정규직</span>
-                                        <button type="button" class="btn">지원하기</button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="date">상시채용</td>
-                                    <td class="tlt tit">
-                                        <a href="#" class="textCut1">풀스택 개발자 채용 / 경력채용/ 급여 250만원</a>
-                                    </td>
-                                    <td class="type">
-                                        <span>정규직</span>
-                                        <button type="button" class="btn">지원하기</button>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                    <!--//채용공고 목록-->
-                </div>
+			<!--채용공고 상세-->
+			<div class="jobop_view_wrap">
+				<div class="ctain">
+					<!--jobop_view-->
+					<div class="jobop_view">
+						<!--jobop_view_top-->
+						<div class="jobop_view_top">
+							<strong>공고명</strong>
+							<p>경기도일자리재단 신입 직원 채용
+							</p>
+						</div>
+						<!--//jobop_view_top-->
+						<!--jobop_view_cont-->
+						<div class="jobop_view_cont">
+							<!--지원자격-->
+							<div>
+								<p class="red">▶ 지원자격</p>
+								<ul>
+									<li>
+										<strong>경력</strong>
+										<div class="text">
+											<p>경력무관</p>
+										</div>
+									</li>
+									<li>
+										<strong>학력</strong>
+										<div class="text">
+											<p>고졸이상</p>
+										</div>
+									</li>
+									<li>
+										<strong>우대</strong>
+										<div class="text">
+											<p>인근거주자</p>
+											<p>1종 보통운전면허</p>
+											<p>회계실무자격증 FAT1급 이상</p>
+										</div>
+									</li>
+								</ul>
+							</div>
+							<!--//지원자격-->
+							<!--근무조건-->
+							<div>
+								<p class="red">▶ 근무조건</p>
+								<ul>
+									<li>
+										<strong>고용형태</strong>
+										<div class="text">
+											<p>정규직</p>
+										</div>
+									</li>
+									<li>
+										<strong>급여</strong>
+										<div class="text">
+											<p>220만원 이상</p>
+										</div>
+									</li>
+									<li>
+										<strong>근무시</strong>
+										<div class="text">
+											<p>주5일(월~금) 08:30 ~ 17:30</p>
+										</div>
+									</li>
+								</ul>
+							</div>
+							<!--//근무조건-->
 
-                <!--채용공고 상세-->
-                <div class="jobop_view_wrap">
-                    <div class="containerNew">
-                        <!--jobop_view-->
-                        <div class="jobop_view">
-                            <!--jobop_view_top-->
-                            <div class="jobop_view_top">
-                                <strong>공고명</strong>
-                                <p>경기도일자리재단 신입 직원 채용
-                                </p>
-                            </div>
-                            <!--//jobop_view_top-->
-                            <!--jobop_view_cont-->
-                            <div class="jobop_view_cont">
-                                <!--지원자격-->
-                                <div>
-                                    <p class="red">▶ 지원자격</p>
-                                    <ul>
-                                        <li>
-                                            <strong>경력</strong>
-                                            <div class="text">
-                                                <p>경력무관</p>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <strong>학력</strong>
-                                            <div class="text">
-                                                <p>고졸이상</p>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <strong>우대</strong>
-                                            <div class="text">
-                                                <p>인근거주자</p>
-                                                <p>1종 보통운전면허</p>
-                                                <p>회계실무자격증 FAT1급 이상</p>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <!--//지원자격-->
-                                <!--근무조건-->
-                                <div>
-                                    <p class="red">▶ 근무조건</p>
-                                    <ul>
-                                        <li>
-                                            <strong>고용형태</strong>
-                                            <div class="text">
-                                                <p>정규직</p>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <strong>급여</strong>
-                                            <div class="text">
-                                                <p>220만원 이상</p>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <strong>근무시</strong>
-                                            <div class="text">
-                                                <p>주5일(월~금) 08:30 ~ 17:30</p>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <!--//근무조건-->
+						</div>
+						<!--//jobop_view_cont-->
+					</div>
+					<!--//jobop_view-->
 
-                            </div>
-                            <!--//jobop_view_cont-->
-                        </div>
-                        <!--//jobop_view-->
+					<!--채용절차-->
+					<div class="job_step ctain">
+						<div>
+							<span class="ico ico01"></span>
+							<p>서류전형</p>
+						</div>
+						<em class="arrow">다음절차</em>
+						<div>
+							<span class="ico ico02"></span>
+							<p>적성검사
+							</p>
+						</div>
+						<em class="arrow">다음절차</em>
+						<div>
+							<span class="ico ico03"></span>
+							<p>실무면접</p>
+						</div>
+						<em class="arrow">다음절차</em>
+						<div>
+							<span class="ico ico04"></span>
+							<p>임원면접</p>
+						</div>
+					</div>
+					<div class="tct">
+						<button type="button" class="btn big_btn white_btn qm_btn">관심기업 등록하기
+						<span>관심기업으로 등록하면 채용 공고 마감일을 알람으로 받아보실 수 있습니다.</span>
+						<a href="javascript:vold(0)" title="도움말">도움말</a>
+						</button>
+					</div>
+					<!--//채용절차-->
+				</div>
+			</div>
+			<!--//채용공고 상세-->
+		</div>
+		<!--//module02-->
 
-                        <!--채용절차-->
-                        <div class="job_step containerNew">
-                            <div>
-                                <span class="ico ico01"></span>
-                                <p>서류전형</p>
-                            </div>
-                            <em class="arrow">다음절차</em>
-                            <div>
-                                <span class="ico ico02"></span>
-                                <p>적성검사
-                                </p>
-                            </div>
-                            <em class="arrow">다음절차</em>
-                            <div>
-                                <span class="ico ico03"></span>
-                                <p>실무면접</p>
-                            </div>
-                            <em class="arrow">다음절차</em>
-                            <div>
-                                <span class="ico ico04"></span>
-                                <p>임원면접</p>
-                            </div>
-                        </div>
-                        <div class="tct">
-                            <button type="button" class="btn big_btn white_btn">관심기업 등록하기</button>
-                        </div>
-                        <!--//채용절차-->
-                    </div>
-                </div>
-                <!--//채용공고 상세-->
-            </div>
-            <!--//module02-->
+		<!--module03-->
+		<div class="module03 style01 target" id="target02">
+			<div class="navy_bg">
+				<div class="ctain">
+					<h2 class="tit01">
+						자소서 문항별 <span class="red">작성 가이드</span>
+					</h2>
+					<!--자소서 문항별 가이드-->
+					<div class="self_intro_wrap section02">
+						<div class="si_area">
+							<strong class="qnum">Q1.</strong>
+							<p class="tit">성장배경에 대해서 기술해주세요.</p>
+							<p class="text">지원자의 성품과 가치관에 대해서 알고자 하는 항목입니다. 자신의 가치관이 어떤 방식으로 형성되었는지 과정에 대해서 설명하고
+								현재는 어떤 신념을 갖고 생활하고 있는지에 대해서 작성해주시면 됩니다.<br />
+								<span class="highlight">장황한 설명보다는 현재의 가치관이 어떻게 형성되었는지에 대해 중점적으로 기술하여주세요.</span>
+							</p>
+						</div>
+						<div class="si_area">
+							<strong class="qnum">Q2.</strong>
+							<p class="tit">직무 관련 본인의 장점
+							</p>
+							<p class="text">지원한 직무 관련하여 본인의 장점을 어떤식으로 발휘할 수 있는지에 대해서 기술해주세요. <br />
+								<span class="highlight">장점을 열거하는 방법보다는 장점을 현업에서 어떻게 활용할것인지에 대해서 기술하는 것이 POINT!</span>
+							</p>
+						</div>
+						<div class="si_area">
+							<strong class="qnum">Q3.</strong>
+							<p class="tit">살면서 가장 힘들었던 적은?</p>
+							<p class="text">위기대처능력과 마인드를 평가하기 위한 문항입니다.
+								<span class="highlight">힘들었던 시기를 어떻게 극복하였는지에 대해 중점적으로 기술해주세요.</span><br />
+								사례를 통해 기술하면서 본인의 솔직한 얘기를 자연스럽게 풀어서 기술해주세요.
+							</p>
+						</div>
 
-            <!--module03-->
-            <div class="module03 section_pd target" id="target02">
-                <div class="containerNew">
-                    <h2 class="tit01">
-                        자소서 문항별 <span class="red">작성 가이드</span>
-                    </h2>
-                    <!--자소서 문항별 가이드-->
-                    <div class="self_intro_wrap section02">
-                        <div class="si_area">
-                            <strong class="qnum">Q1</strong>
-                            <p class="tit">성장배경에 대해서 기술해주세요.</p>
-                            <p class="text">지원자의 성품과 가치관에 대해서 알고자 하는 항목입니다. 자신의 가치관이 어떤 방식으로 형성되었는지 과정에 대해서 설명하고
-                                현재는 어떤 신념을 갖고 생활하고 있는지에 대해서 작성해주시면 됩니다.<br />
-                                <span class="highlight">장황한 설명보다는 현재의 가치관이 어떻게 형성되었는지에 대해 중점적으로 기술하여주세요.</span>
-                            </p>
-                        </div>
-                        <div class="si_area">
-                            <strong class="qnum">Q2</strong>
-                            <p class="tit">직무 관련 본인의 장점
-                            </p>
-                            <p class="text">지원한 직무 관련하여 본인의 장점을 어떤식으로 발휘할 수 있는지에 대해서 기술해주세요. <br />
-                                <span class="highlight">장점을 열거하는 방법보다는 장점을 현업에서 어떻게 활용할것인지에 대해서 기술하는 것이 POINT!</span>
-                            </p>
-                        </div>
-                        <div class="si_area">
-                            <strong class="qnum">Q3</strong>
-                            <p class="tit">살면서 가장 힘들었던 적은?</p>
-                            <p class="text">위기대처능력과 마인드를 평가하기 위한 문항입니다.
-                                <span class="highlight">힘들었던 시기를 어떻게 극복하였는지에 대해 중점적으로 기술해주세요.</span><br />
-                                사례를 통해 기술하면서 본인의 솔직한 얘기를 자연스럽게 풀어서 기술해주세요.
-                            </p>
-                        </div>
-
-                        <div class="recent_question">
-                            <div class="rq_img">
-                                <img src="./images/jp_md03_si_img01.png" alt="테블릿하는 남성, 노트북하는 여성">
-                            </div>
-                            <div class="rq_cont">
-                                <p class="rq_tit">최근 면접 질문</p>
-                                <div class="rq_text">
-                                    <p>주변사람들에게 어떤식의 <strong>평판</strong>을 받고 있습니까?</p>
-                                    <p>같이 <strong>일하기 힘든 사람</strong>은 어떤 유형의 사람입니까?</p>
-                                    <p>자신의 <strong>최대 강점</strong>이 뭐라고 생각하세요?
-                                    </p>
-                                    <p>최근에 가장 <strong>기분 좋은 일</strong>은 무엇이었나요?
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="rq_img">
-                                <img src="./images/jp_md03_si_img02.png" alt="테블릿하는 남성">
-                            </div>
-                            </div>
-                        </div>
-                        <!--//자소서 문항별 가이드-->
-
-
-                        <!--가산점 요인-->
-                        <div class="md3_warp section"
-                        > <h2 class="tit01 white">
-                            <span class="red">가산점</span> 요인
-                        </h2>
-                        <div class="white_box section02">
-                            <ul>
-                                <li>
-                                    <strong>자격증</strong> <p>FAT 1급 자격증, 웹디자인 기능사 자격증, TAT 자격증 외 회계실무 관련 자격증</p>
-                                </li>
-                                <li>
-                                    <strong>봉사활동</strong> <p>자원봉사 포털 1365 기준 봉사활동 시간</p>
-                                </li>
-                                <li>
-                                    <strong>공모전</strong> <p>동상 이상의 수상 이력</p>
-                                </li>
-                                <li>
-                                    <strong>어학점수</strong> <p>토익800점 이상, 토익스피킹 Lv.6 이상</p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                        <!--//가산점 요인-->
+						<div class="recent_question">
+							<div class="rq_img">
+								<img src="./images/jp_md03_si_img01.png" alt="테블릿하는 남성, 노트북하는 여성">
+							</div>
+							<div class="rq_cont">
+								<p class="rq_tit">최근 면접 질문</p>
+								<div class="rq_text">
+									<p>주변사람들에게 어떤식의 <strong>평판</strong>을 받고 있습니까?</p>
+									<p>같이 <strong>일하기 힘든 사람</strong>은 어떤 유형의 사람입니까?</p>
+									<p>자신의 <strong>최대 강점</strong>이 뭐라고 생각하세요?
+									</p>
+									<p>최근에 가장 <strong>기분 좋은 일</strong>은 무엇이었나요?
+									</p>
+								</div>
+							</div>
+							<div class="rq_img">
+								<img src="./images/jp_md03_si_img02.png" alt="테블릿하는 남성">
+							</div>
+						</div>
+					</div>
+					<!--//자소서 문항별 가이드-->
 
 
-                                   <!--최근 입사자 합격 스펙-->
-                                   <div class="md3_warp md3_adImmg section"
-                                   > <h2 class="tit01 white">
-                                      최근 입사자 <span class="red">합격 스펙</span> 
-                                   </h2>
-                                   <div class="white_box section02">
-                                       <ul class="txt">
-                                           <li>
-                                               <strong>학점</strong> <p>3.4</p>
-                                           </li>
-                                           <li>
-                                               <strong>토익</strong> <p>750</p>
-                                           </li>
-                                           <li>
-                                               <strong>토익스피킹</strong> <p>Lv5</p>
-                                           </li>
-                                           <li>
-                                               <strong>외국어</strong> <p>1개</p>
-                                           </li>
-                                           <li>
-                                            <strong>자격증</strong> <p>2개</p>
-                                        </li>
-                                        <li>
-                                            <strong>봉사활동</strong> <p>150시간</p>
-                                        </li>
-                                       </ul>
-                                       <div class="radar_chart"></div>
-                                   </div>
-                               </div>
-                                   <!--// 최근 입사자 합격 스펙-->
-
-                    </div>
-                </div>
-                <!--//module03-->
+					<!--가산점 요인-->
+					<div class="md3_warp section">
+						<h2 class="tit01 white">
+							<span class="red">가산점</span> 요인
+						</h2>
+						<div class="white_box section02">
+							<ul>
+								<li>
+									<strong>자격증</strong>
+									<p>FAT 1급 자격증, 웹디자인 기능사 자격증, TAT 자격증 외 회계실무 관련 자격증</p>
+								</li>
+								<li>
+									<strong>봉사활동</strong>
+									<p>자원봉사 포털 1365 기준 봉사활동 시간</p>
+								</li>
+								<li>
+									<strong>공모전</strong>
+									<p>동상 이상의 수상 이력</p>
+								</li>
+								<li>
+									<strong>어학점수</strong>
+									<p>토익800점 이상, 토익스피킹 Lv.6 이상</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<!--//가산점 요인-->
 
 
+					<!--최근 입사자 합격 스펙-->
+					<div class="md3_warp md3_adImmg section">
+						<h2 class="tit01 white">
+							최근 입사자 <span class="red">합격 스펙</span>
+						</h2>
+						<div class="white_box section02">
+							<ul class="txt">
+								<li>
+									<strong>학점</strong>
+									<p>3.4</p>
+								</li>
+								<li>
+									<strong>토익</strong>
+									<p>750</p>
+								</li>
+								<li>
+									<strong>토익스피킹</strong>
+									<p>Lv5</p>
+								</li>
+								<li>
+									<strong>외국어</strong>
+									<p>1개</p>
+								</li>
+								<li>
+									<strong>자격증</strong>
+									<p>2개</p>
+								</li>
+								<li>
+									<strong>봉사활동</strong>
+									<p>150시간</p>
+								</li>
+							</ul>
+							<div class="radar_chart"></div>
+						</div>
+					</div>
+					<!--// 최근 입사자 합격 스펙-->
+				</div>
+				<!--//navy bg-->
+
+			</div>
+			<!--blue_bg-->
+			<div class="blue_bg section_pd">
+				<div class="ctain">
+					<h2 class="tit01">
+						채용담당자가 직접 알려주는 <span class="red">면접 꿀팁!</span>
+					</h2>
+					<div class="self_intro_wrap ty2 section02">
+						<div class="si_area">
+							<strong class="qnum">Q1.</strong>
+							<p class="tit">인사담당자로서 면접 팁을 공유해주세요~
+
+							</p>
+							<p class="text">
+								<strong class="red">회사에 대한 공부가 가장 중요합니다.</strong> 그 회사에서 추진하고 있는 사업이 무엇인지, 앞으로의 방향, 회사에서 사용하는 용어나 부서까지 알고 있다면,
+								면접관들에게 좋은 이미지를 심어줄 수 있습니다. 은행, 증권사를 보고 대략적으로 준비하는 것은 분명 차이가 있습니다. <br>
+								그렇기 때문에 회사에 대해 공부를 하고, 그 용어나 개념을 일부 활용할 줄 안다면 자기소개서나 면접에서 다른 지원자와 차별이 될 것입니다.
+
+							</p>
+						</div>
+						<div class="si_area">
+							<strong class="qnum">Q2.</strong>
+							<p class="tit">면접이라고 하면 아무래도 복장 부분에 많은 신경이 쓰이게 마련인데요~ <br />
+								인사담당자님 눈에 가장 매력적인 지원자는 어떤 지원자인가요??
+
+							</p>
+							<p class="text">
+								<strong class="red">본인의 업무에 맞는 복장으로 준비해오시면 됩니다.</strong> 면접전에 복장에 대한 공지가 특별히 없는 경우엔
+								출근을 하게 된다면 어떤 복장으로 출근을 할것인지 생각해보고 편하게 복장을 준비하시면 됩니다.
+
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="tct">
+					<button type="button" class="btn big_btn blue_btn qm_btn">관심기업 등록하기
+						<span>관심기업으로 등록하면 채용 공고 마감일을 알람으로 받아보실 수 있습니다.</span>
+						<a href="javascript:vold(0)" title="도움말">도움말</a>
+						</button>
+				</div>
+			</div>
+			<!--//blue_bg-->
+		</div>
+		<!--//module03-->
+
+		<!--module04-->
+		<div class="module04 style01 target" id="target03">
+			<!--기업 SWOT 분석-->
+			<div class="black_bg section_pd">
+				<div class="ctain">
+					<h2 class="tit01 white">
+						기업 <span class="red">SWOT</span> 분석
+					</h2>
+
+					<div class="swot_wrap">
+						<div class="diagram_area">
+							<ul>
+								<li>
+									<p><strong>S</strong>Strengths</p>
+								</li>
+								<li>
+									<p><strong>W</strong>Weaknesses</p>
+								</li>
+								<li>
+									<p><strong>O</strong>Opportunities</p>
+								</li>
+								<li>
+									<p><strong>T</strong>Threats</p>
+								</li>
+							</ul>
+						</div>
+						<ul class="txt">
+							<li>
+								<strong>Strengths</strong>
+								<p>20년 굴지의 기업교육 서비스 대표 선두주자</p>
+							</li>
+							<li>
+								<strong>Weaknesses</strong>
+								<p>코로나19 여파로 인한 교육수요 위축</p>
+							</li>
+							<li>
+								<strong>Opportunities</strong>
+								<p>비대면 교육서비스 개발을 통한 시장 확대</p>
+							</li>
+							<li>
+								<strong>Threats</strong>
+								<p>여가 및 유흥 콘텐츠 증가에 따른 자기개발 욕구 저하</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!--//기업 SWOT 분석-->
+
+			<!--기업 매출 및 이익-->
+			<div class="company_sale_wrap section_pd">
+				<div class="ctain">
+					<div class="top">
+						<div>
+							<p>규모형태</p>
+							<div class="cicle">
+								<p>상위 <strong>5</strong>%</p>
+							</div>
+						</div>
+						<div>
+							<p>수익성</p>
+							<div class="cicle">
+								<p>상위 <strong>5</strong>%</p>
+							</div>
+						</div>
+						<div>
+							<p>안정성</p>
+							<div class="cicle">
+								<p>상위 <strong>5</strong>%</p>
+							</div>
+						</div>
+						<div>
+							<p>성장성</p>
+							<div class="cicle">
+								<p>상위 <strong>3</strong>%</p>
+							</div>
+						</div>
+
+					</div>
+					<!--//top-->
+					<div class="white_box_sdw section">
+						<!--chart_wrap-->
+						<div class="chart_wrap">
+							<div>
+								<h3>매출액</h3>
+								<ul class="chart_cont">
+									<li>
+										<em>2020년 매출액</em>
+										<p><strong>30</strong>억</p>
+									</li>
+									<li>
+										<em>전년도 대비</em>
+										<p class="up"><strong>18</strong>% <span>▲</span></p>
+										<!--<p class="down"><strong>18</strong>% <span>▼</span></p>-->
+									</li>
+									<li>
+										<em>업계평균 대비</em>
+										<p class="up"><strong>200</strong>% <span>▲</span></p>
+										<!--<p class="down"><strong>200</strong>% <span>▼</span></p>-->
+									</li>
+								</ul>
+								<div class="barChart01" data-aos-duration="1000" data-aos-offset="200" data-aos-delay="200" data-aos="fade-up">
+								</div>
+							</div>
+
+							<div>
+								<h3>당기순이익</h3>
+								<ul class="chart_cont">
+									<li>
+										<em>2020년 당기순이익</em>
+										<p><strong>10</strong>억</p>
+									</li>
+									<li>
+										<em>전년도 대비</em>
+										<p class="up"><strong>5</strong>% <span>▲</span></p>
+										<!--<p class="down"><strong>18</strong>% <span>▼</span></p>-->
+									</li>
+									<li>
+										<em>업계평균 대비</em>
+										<p class="up"><strong>2</strong>% <span>▲</span></p>
+										<!--<p class="down"><strong>200</strong>% <span>▼</span></p>-->
+									</li>
+								</ul>
+
+								<!--area_graph-->
+								<div class="area_graph" data-aos-duration="1000" data-aos-offset="200" data-aos-delay="200" data-aos="fade-up">
+									<div class="graph_info">
+										<div class="grid_range">
+											<span class="range"></span>
+											<span class="range"></span>
+											<span class="range"></span>
+											<span class="range"><span>0</span></span>
+											<span class="range"></span>
+											<span class="range"></span>
+											<span class="range"></span>
+											<span class="range"></span>
+										</div>
+										<div class="graph_range">
+											<div class="wrap_graph">
+												<em class="tit_graph">2017</em>
+												<div class="graph">
+													<span class="inner_graph" style="height:55.133076%"><em class="txt_value"> 216억 6,782만원</em></span>
+												</div>
+											</div>
+											<div class="wrap_graph">
+												<em class="tit_graph">2018</em>
+												<div class="graph">
+													<span class="inner_graph" style="height:60.133076%">
+														<em class="txt_value"> 585억 9,981만원</em></span>
+												</div>
+											</div>
+											<div class="wrap_graph minus">
+												<em class="tit_graph">2019</em>
+												<div class="graph">
+													<span class="inner_graph"><em class="txt_value">-86억 1,832만원</em></span>
+												</div>
+											</div>
+											<div class="wrap_graph emph">
+												<em class="tit_graph">2020</em>
+												<div class="graph">
+													<span class="inner_graph" style="height:48.133076%"><em class="txt_value"> 581억 7,236만원</em></span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<!--//area_graph-->
+							</div>
+
+						</div>
+						<!--//chart_wrap-->
+					</div>
 
 
-        </div>
-        <!-- //prototype type01 : 채용공고형  -->
-        <script src="https://d3js.org/d3.v6.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/billboard.js@1.11.0-next.1/dist/billboard.pkgd.min.js"></script>
-        <script src="./js/jquery-3.2.1.min.js"></script>
-        <script src="./js/imgLiquid-min.js"></script>
-        <script src="./js/run.js"></script>
-      
+					<div class="white_box_sdw section">
+						<h3>동종업종내 위치(매출액 기준)</h3>
+
+						<div class="local_rank_wrap">
+							<div class="left">
+								<div class="lank_img">
+									<div class="lank01">
+										<p>상위<br />
+											<strong>10</strong>%
+										</p>
+									</div>
+									<span></span>
+									<img src="./images/jp_md04_style01_img.png" alt="피라미드 이미지">
+								</div>
+								<table class="table_style01">
+								<caption>동종업종내 위치 연도별 순위</caption>
+									<thead>
+										<tr>
+											<th scope="col">연도</th>
+											<th scope="col">순위</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>2020</td>
+											<td>23</td>
+										</tr>
+										<tr>
+											<td>2019</td>
+											<td>32</td>
+										</tr>
+										<tr>
+											<td>2018</td>
+											<td>85</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<div class="right">
+								<table class="table_style01">
+									<caption>동종업종내 순위 및 점수</caption>
+									<thead>
+										<tr>
+											<th scope="col">순위</th>
+											<th scope="col">기업명</th>
+											<th scope="col">재무종합 점수
+											</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>23</td>
+											<td>A</td>
+											<td>87</td>
+										</tr>
+										<tr>
+											<td>24</td>
+											<td>B</td>
+											<td>86</td>
+										</tr>
+										<tr>
+											<td>25</td>
+											<td>C</td>
+											<td>83.6</td>
+										</tr>
+										<tr>
+											<td>26</td>
+											<td>D</td>
+											<td>82</td>
+										</tr>
+										<tr class="this_company">
+											<td colspan="3">
+												<ul>
+													<li>23</li>
+													<li>경기일자리재단</li>
+													<li>83.6</li>
+												</ul>
+											</td>
+										</tr>
+										<tr>
+											<td>28</td>
+											<td>F</td>
+											<td>85</td>
+										</tr>
+										<tr>
+											<td>29</td>
+											<td>G</td>
+											<td>84</td>
+										</tr>
+										<tr>
+											<td>30</td>
+											<td>H</td>
+											<td>54</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+
+
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+			<!--//기업 매출 및 이익-->
+
+
+		</div>
+		<!--module04-->
+
+
+		<!--module05-->
+		<div class="module05 style01 section">
+			<div class="ctain">
+				<h2 class="tit01">
+					기업 <span class="red">비전</span>
+				</h2>
+				<div class="slider01">
+					<div>
+						<img src="./images/jp_md05_style01_img.png" alt="사원증, 사원, 회사">
+						<p class="f30 mt_20">
+							<span class="red">일자리</span>와 <span class="blue">사람</span>을 연결하는 최고의 <span class="pink">고용서비스 허브기관</span>
+						</p>
+					</div>
+					<div>
+						<img src="./images/jp_md05_style01_img.png" alt="사원증, 사원, 회사">
+						<p class="f30 mt_20">
+							<span class="red">일자리</span>와 <span class="blue">사람</span>을 연결하는 최고의 <span class="pink">고용서비스 허브기관</span>
+						</p>
+					</div>
+
+				</div>
+
+				<h2 class="tit01">
+					복리후생
+				</h2>
+				<!--welfare-->
+				<div class="welfare">
+					<div>
+						<div class="ico ico01"></div>
+						<div class="cont">
+							<p class="tit">연금·보험</p>
+							<ul>
+								<li>국민연금</li>
+								<li>고용보험</li>
+								<li>산재보험</li>
+								<li>건강보험</li>
+							</ul>
+						</div>
+					</div>
+					<div>
+						<div class="ico ico02"></div>
+						<div class="cont">
+							<p class="tit">보상·수당 ·지원</p>
+							<ul>
+								<li>교육비 지원</li>
+								<li>자기계발 지원</li>
+								<li>야간교통비 지급</li>
+								<li>본인 학자금 지원</li>
+							</ul>
+						</div>
+					</div>
+					<div>
+						<div class="ico ico03"></div>
+						<div class="cont">
+							<p class="tit">기타</p>
+							<ul>
+								<li>복지포인트 제공</li>
+								<li>장기근속휴가</li>
+								<li>사내도서관</li>
+								<li>카페테리아</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!--//welfare-->
+
+				<!--company_gallery-->
+				<div class="company_gallery">
+					<div class="imgFill">
+						<img src="./images/gallery_img01.png" alt="회사전경">
+					</div>
+					<div class="imgFill">
+						<img src="./images/gallery_img02.png" alt="회사전경">
+					</div>
+					<div class="imgFill">
+						<img src="./images/gallery_img03.png" alt="회사전경">
+					</div>
+					<div class="imgFill">
+						<img src="./images/gallery_img04.png" alt="회사전경">
+					</div>
+					<div class="imgFill">
+						<img src="./images/gallery_img05.png" alt="회사전경">
+					</div>
+					<div class="imgFill">
+						<img src="./images/gallery_img06.png" alt="회사전경">
+					</div>
+				</div>
+				<!--//company_gallery-->
+
+			</div>
+		</div>
+		<!--module05-->
+
+		<!--module06-->
+		<div class="module06 style01 section_pd">
+			<div class="ctain">
+				<h2 class="tit01">
+					현직자 <span class="red">복지 사용후기</span>
+				</h2>
+
+				<!--review-->
+				<div class="review">
+					<div class="img imgFill">
+						<img src="./images/interview_image.png" alt="홍길동 대리">
+					</div>
+					<div class="cont">
+						<div class="top">
+							<p>IT 사업부 홍길동 대리</p>
+						</div>
+						<dv class="bottom">
+							<p>저는 개발팀에서 근무하고 있는 홍길동입니다. <br>
+								직무역량을 향상 시키기 위해 웹퍼블리셔(코딩)학원을 다니는 중인데, 회사에서 비용을 지원받고 있어요! 교육비도 절약하고 업무역량을 키울 수 있어서 좋아요!
+								분기별로 나오는 <strong>자기계발 지원금</strong>도 알차게 사용하고 있답니다! 2021년 상반기에는 자기계발 지원금으로 테니스 레슨을 등록했어요~! <br>
+								워라밸을 확실히 챙길 수 있는 복지제도 최고입니다~ 항상 감사드립니다 대표님~</p>
+						</dv>
+					</div>
+				</div>
+				<!--//interview-->
+
+				<!--salary-->
+				<div class="white_box_sdw section">
+					<h4 class="tit02">연봉정보</h4>
+					<div class="salary">
+						<div class="left">
+							<div class="barChart02"></div>
+						</div>
+						<div class="right">
+							<ul class="select_list">
+								<li>
+								<label for="occupation" class="hide">직무 선택</label>
+									<select class="select_style01 change_ev01" id="occupation">
+										<option selected value>직무</option>
+										<option value="개발">개발</option>
+										<option value="사무보조">사무보조</option>
+									</select>
+								</li>
+								<li>
+								<label for="career" class="hide">경력 선택</label>
+									<select class="select_style01 change_ev02" id="career">
+										<option class="op-0" selected value>경력</option>
+										<option class="op-0" value="신입">신입</option>
+										<option class="op-1" value="3년">3년</option>
+										<option class="op-2" value="5년">5년</option>
+										<option class="op-3" value="10년">10년</option>
+									</select>
+								</li>
+							</ul>
+
+							<div class="salary_cont">
+								<div>
+									<p class="txt"><span class="op_text1">개발</span> / <span class="op_text2">신입</span></p>
+									<p class="txt2">
+										<strong>3,129</strong>만원
+									</p>
+								</div>
+								<div>
+									<p class="txt"><span class="op_text2">신입</span>기준 월 수령액 약
+										<strong>230</strong>만원
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--//salary-->
+				<div class="tct">
+					<button type="button" class="btn big_btn blue_btn qm_btn">관심기업 등록하기
+						<span>관심기업으로 등록하면 채용 공고 마감일을 알람으로 받아보실 수 있습니다.</span>
+						<a href="javascript:vold(0)" title="도움말">도움말</a>
+						</button>
+				</div>
+
+				<div class="video_wrap section">
+					<iframe width="896" height="504" src="https://www.youtube.com/embed/B3ZVpPQy5jo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+
+				<div class="table_wrap">
+					<table class="table_style01">
+						<caption>전략과제, 핵심과제</caption>
+						<colgroup>
+							<col style="width: 220px">
+							<col />
+						</colgroup>
+						<thead>
+							<tr>
+								<th scope="col">전략과제</th>
+								<th scope="col">핵심과제</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>맞춤형 취업지원</td>
+								<td class="tlt">계층별 / 대상별 맞춤형 취업지원 및 고용지원 플랫폼 운영을 통한 고용연계서비스 강화</td>
+							</tr>
+							<tr>
+								<td>취/창업 역량 향상</td>
+								<td class="tlt">청년 구직활동지원 강화 및 유망직종 발굴 및 교육</td>
+							</tr>
+							<tr>
+								<td>고용유지지원</td>
+								<td class="tlt">중소기업 재직자 직무능력 향상 및 일하기 좋은 기업환경 조성</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+		<!--//module06-->
+
+		<!--module07-->
+		<div class="module07 style01 target" id="target04">
+			<div class="ctain section_pd">
+				<h2 class="tit01">
+					<span class="red">CEO</span> 인터뷰
+				</h2>
+
+				<div class="ceo_interview">
+					<div class="text">
+						<h2>가장 행복한 자리는 일자리입니다.<br />
+							<span class="orange">당신의 일자리</span>를 위해 <span class="cyon">경기도일자리재단</span>이 함께 하겠습니다.
+						</h2>
+
+						<p>안녕하십니까?<br />
+							경기도일자리재단 홈페이지를 방문해 주신 것을 진심으로 환영합니다.<br />
+
+							경기도일자리재단은 경기도민을 위한 다양한 일자리 정보의 제공과 양질의<br />
+							직업 알선, 다양한 직업교육 및 단계별 여성창업 지원을 통하여 도민이 일할 수 있는<br />
+							<span class="highlight02">더 많은 기회를 제공받기 위한 고용서비스를 제공하고 있습니다.</span><br />
+							<br />
+							더불어, 경기도, 도내 31개 시ㆍ군, 경기도교육청, 중앙정부 등 공공, 민간, 유관기관과<br />
+							협력적 거버넌스를 구축하여 도민과 도내 기업에게 양질의 일자리
+							서비스를 제공할 수 있는 공공 고용 서비스 정책 개발에 앞장서고 있습니다.<br />
+							<br />
+							앞으로도 재단은 청년, 여성, 중장년, 장애인 등 취업취약계층에 대한 수요자
+							맞춤형 고용 서비스 제공을 통해 도민의 고용 기회 확대와 복지증진에 앞장서는
+							최고의 고용서비스 허브기관이 되도록 최선을 다하겠습니다. 지속적인 성원과 격려 부탁드립니다.<br /><br />
+
+							감사합니다.
+						</p>
+					</div>
+					<div class="img">
+						<img src="./images/ceo_img.png" alt="ceo 이미지">
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--module07-->
+
+		<!--module08-->
+		<div class="module08 style01 section_pd">
+			<div class="ctain">
+				<h2 class="tit01">
+					채용담당자 인터뷰
+				</h2>
+				<div class="recruiter_interview">
+					<div class="in_img">
+						<strong class="qnum">Q</strong>
+						<p>신입사원 기준 실수령 월급이 <br />
+							얼마인지 정확하게 알려주세요~
+						</p>
+						<img src="./images/jp_md08_img01.png" alt="채용 담당자">
+					</div>
+					<div>
+						<strong class="qnum">Q</strong>
+						<p>담당자님은 만족하면서
+							회사생활을 하고 계신가요? <br /><br />
+							만족하신다면 가장 큰 이유는
+							무엇인가요?
+						</p>
+					</div>
+					<div>
+						<strong class="qnum">Q</strong>
+						<p>회사를 그만두고
+							싶으셨던적이 있으신가요? <br /><br />
+							그 이유에 대해서도
+							말씀해주세요~
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--//module08-->
+
+
+		<!--module09-->
+		<div class="module09 style01 section_pd">
+			<div class="ctain">
+				<h2 class="tit01 white">
+					입사 3개월 이내 <span class="red">신입사원</span>
+				</h2>
+				<div class="recruiter_interview">
+					<div class="in_img">
+						<strong class="qnum">Q</strong>
+						<p>면접시에 질문은 어떤것들을
+							받았었나요?
+						</p>
+						<img src="./images/jp_md09_img01.png" alt="신입사원">
+					</div>
+					<div class="in_img">
+						<strong class="qnum">Q</strong>
+						<p>입사 전 느꼈던 회사의 이미지와
+							입사 후 느낀 회사의 이미지는
+							어떠한가요?
+
+						</p>
+						<img src="./images/jp_md09_img02.png" alt="신입사원">
+					</div>
+					<div class="in_img">
+						<strong class="qnum">Q</strong>
+						<p>기업소개에 나와있는
+							복지혜택은 실제로 잘 이행이
+							되는 편인가요?
+
+						</p>
+						<img src="./images/jp_md09_img03.png" alt="신입사원">
+					</div>
+				</div>
+			</div>
+			<!--//module09-->
+
+
+
+
+		</div>
+		<!--//module09-->
+
+
+		<!--module10-->
+		<div class="module10 style01 section_pd">
+			<div class="ctain">
+				<h2 class="tit01">
+					전현직자 <span class="red">리뷰</span>
+				</h2>
+				<div class="white_box_sdw former_review">
+					<div>
+						<div class="img imgFill">
+							<img src="./images/jp_md10_img01.png" alt="전 현직자">
+						</div>
+						<div class="txt">
+							<ul>
+								<li>전직원</li>
+								<li>서울</li>
+								<li>2021.04</li>
+							</ul>
+
+							<p class="f24">승진 기회 및 가능성도 괜찮은 편이고 <strong class="highlight">워라밸도 보장되는 조직문화</strong>였어요.</p>
+						</div>
+					</div>
+					<div>
+						<div class="img imgFill">
+							<img src="./images/jp_md10_img02.png" alt="전 현직자">
+						</div>
+						<div class="txt">
+							<ul>
+								<li>현직원</li>
+								<li>경기</li>
+								<li>2021.05</li>
+							</ul>
+
+							<p class="f24">조직원의 말에 귀기울일줄 아는 <strong class="highlight">사장님에 마인드도 좋고 복지제도나 급여도 만족</strong>합니다~<br>
+								자율출근제로 퇴튜던트 실천 중입니다~
+							</p>
+						</div>
+					</div>
+				</div>
+				<!--//white_box_sdw-->
+			</div>
+		</div>
+		<!--module10-->
+
+		<!--module11-->
+		<div class="module11 style01 section target" id="target05">
+			<div class="ctain">
+				<div class="news">
+					<a href="javascript:;">
+						<div class="img imgFill">
+							<img src="./images/news_img01.png" alt="뉴스이미지">
+						</div>
+						<div class="cont">
+							<p class="tit">경기도 일자리재단 ‘2021년 경기 여성 창업리그’ 개최</p>
+							<p class="txt">경기도와 경기도일자리재단 여성능력개발본부는 도내 여성들의 우수한 창업 아이디어를 발굴하고 지원하기 위해
+								‘2021년 경기 여성 창업리그’를 개최한다고 12일 밝혔다. ‘경기 여성 창업리그’는 경기도가 도내 여성창업
+								친화적인 분위기를 조성하고
+								친화적인 분위기를 조성하고
+								친화적인 분위기를 조성하고
+								친화적인 분위기를 조성하고
+								친화적인 분위기를 조성하고</p>
+							<p class="date">2021.05.15</p>
+						</div>
+					</a>
+					<a href="javascript:;">
+						<div class="img imgFill">
+							<img src="./images/news_img02.png" alt="뉴스이미지">
+						</div>
+						<div class="cont">
+							<p class="tit">경기도 일자리재단 ‘2021년 경기 여성 창업리그’ 개최</p>
+							<p class="txt">경기도와 경기도일자리재단 여성능력개발본부는 도내 여성들의 우수한 창업 아이디어를 발굴하고 지원하기 위해
+								‘2021년 경기 여성 창업리그’를 개최한다고 12일 밝혔다. ‘경기 여성 창업리그’는 경기도가 도내 여성창업
+								친화적인 분위기를 조성하고
+								친화적인 분위기를 조성하고
+								친화적인 분위기를 조성하고
+								친화적인 분위기를 조성하고
+								친화적인 분위기를 조성하고</p>
+							<p class="date">2021.05.15</p>
+						</div>
+					</a>
+				</div>
+				<!--//news-->
+
+				<!--페이징-->
+				<ul class="paging">
+					<li class="first btn_page">
+						<a href="javascript:;" title="처음페이지">처음페이지</a>
+					</li>
+					<li class="prev btn_page">
+						<a href="javascript:;" title="이전페이지">이전페이지</a>
+					</li>
+					<li class="active">
+						<a href="javascript:;">1</a>
+					</li>
+					<li>
+						<a href="javascript:;">2</a>
+					</li>
+					<li>
+						<a href="javascript:;">3</a>
+					</li>
+					<li>
+						<a href="javascript:;">4</a>
+					</li>
+					<li>
+						<a href="javascript:;">5</a>
+					</li>
+					<li>
+						<a href="javascript:;">6</a>
+					</li>
+					<li>
+						<a href="javascript:;">7</a>
+					</li>
+					<li>
+						<a href="javascript:;">8</a>
+					</li>
+					<li>
+						<a href="javascript:;">9</a>
+					</li>
+					<li>
+						<a href="javascript:;">10</a>
+					</li>
+					<li class="next btn_page">
+						<a href="javascript:;" title="다음페이지">다음페이지</a>
+					</li>
+					<li class="last btn_page">
+						<a href="javascript:;" title="마지막페이지">마지막페이지</a>
+					</li>
+				</ul>
+				<!--//페이징-->
+			</div>
+		</div>
+		<!--//module11-->
+
+		<!--module12-->
+		<div class="module12 section">
+			<div class="ctain">
+			<div class="location">
+				<strong>소재지</strong>
+				<p>경기도 부천시 원미구 부천로 136번길 어울마당(구, 원미구청) 3층</p>
+			</div>
+			</div>
+			<!--잡아바에 업로드할시 appkey 변경 요망-->
+				<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=1ae4434f2b4cd5caa3ccfd96ebf12227"></script>
+				<script>
+					var container = document.getElementById('map');
+					var options = {
+						center: new kakao.maps.LatLng(33.450701, 126.570667),
+						level: 3
+					};
+
+					var map = new kakao.maps.Map(container, options);
+				</script>
+			<!--//module12-->
+		</div>
+	</div>
+	<!-- //prototype type01 : 채용공고형  -->
+
+	<script src="./js/jquery-3.2.1.min.js"></script>
+	<script src="https://d3js.org/d3.v6.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/billboard.js@1.11.0-next.1/dist/billboard.pkgd.min.js"></script>
+	<script src="./js/waypoints.min.js"></script>
+	<script src="./js/jquery.counterup.min.js"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.0.5/gsap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.js"></script>
+	<script src="./js/imgLiquid-min.js"></script>
+	<script src="./js/slick.min.js"></script>
+	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+	<script src="./js/run.js"></script>
+
 	<script>
+		//매출액
+		var chart = bb.generate({
+			bindto: '.barChart01',
+			data: {
+				columns: [
+					['매출액', 22, 24, 25, 27, 26],
+				],
+				type: 'bar',
+				colors: {
+					'매출액': '#00b9a1',
+				}
+			},
+			grid: {
+				y: {
+					show: true
+				},
+			},
+			bar: {
+				width: {
+					ratio: 0.3
+				}
+			},
+			axis: {
+				x: {
+					type: 'category',
+					categories: ['2016년', '2017년', '2018년', '2019년', '2020년'],
+				},
+				y: {
+					max: 30,
+					min: 0,
+					padding: {
+						top: 0,
+						bottom: 0
+					},
+					tick: {
+						count: 7
+					}
+				},
+
+			},
+			tooltip: {
+				show: false
+			},
+			legend: {
+				show: false
+			},
+			padding: {
+				bottom: 20,
+				top: 20
+			}
+
+
+		});
+
+		// 연봉정보
+		var chart = bb.generate({
+			bindto: '.barChart02',
+			data: {
+				columns: [
+					['연봉정보', 3200, 4000, 4500, 6500],
+				],
+				type: 'bar',
+				colors: {
+					'연봉정보': '#214598',
+				}
+			},
+			grid: {
+				y: {
+					show: true,
+
+
+				},
+			},
+			bar: {
+				width: {
+					ratio: 0.3
+				}
+			},
+			axis: {
+				x: {
+					type: 'category',
+					categories: ['신입', '3년', '5년', '10년'],
+				},
+				y: {
+					y: {
+						tick: {
+							stepSize: 33
+						}
+					}
+
+				},
+
+			},
+			tooltip: {
+				show: false
+			},
+			legend: {
+				show: false
+			},
+			padding: {
+				bottom: 20,
+				top: 20
+			}
+		});
+		
+		
+		// Animation
+
+
+
+		// 레이더 차트
 		var chart = bb.generate({
 			data: {
 				x: "x",
 				columns: [
-					["x", '학점','봉사활동','자격증', '외국어', '토익스피킹', '토익'],
-					["data1", 18, 15, 12, 8, 12, 12,10],
+					["x", '학점', '봉사활동', '자격증', '외국어', '토익스피킹', '토익'],
+					["data1", 18, 15, 12, 8, 12, 12, 10],
 				],
 				type: "radar", // for ESM specify as: radar()
 				labels: false,
-				  colors: {
-					  data1: "#ff2e69",
-				  }
+				colors: {
+					data1: "#ff2e69",
+				}
 			},
 			legend: {
 				show: false
@@ -468,7 +1412,45 @@
 				show: false
 			},
 
-			bindto: ".radar_chart"
+			bindto: ".radar_chart",
+			transition: {
+				duration: 1000
+			}
+		});
+
+		// select 체인지 이벤트
+		$('.change_ev01').on('change', function() {
+			$('.op_text1').text($(this).val());
+		});
+
+		// 연봉정보 차트 선택
+		$('.barChart02').each(function() {
+			$(this).find('.bb-bar-0').addClass('active');
+		});
+		$('.change_ev02').on('change', function() {
+			$(this).find(':selected').addClass('selected')
+				.siblings('option').removeClass('selected');
+
+			$('.op_text2').text($(this).val());
+
+			$('.bb-bar').removeClass('active')
+
+			if ($('.change_ev02 .op-0').hasClass("selected")) {
+				$('.bb-bar-0').addClass('active');
+			} else {}
+
+			if ($('.change_ev02 .op-1').hasClass("selected")) {
+				$('.bb-bar-1').addClass('active');
+			} else {}
+
+			if ($('.change_ev02 .op-2').hasClass("selected")) {
+				$('.bb-bar-2').addClass('active');
+			} else {}
+
+			if ($('.change_ev02 .op-3').hasClass("selected")) {
+				$('.bb-bar-3').addClass('active');
+			} else {}
+
 		});
 	</script>
 </body></html>

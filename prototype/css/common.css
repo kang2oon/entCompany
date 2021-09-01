@@ -65,10 +65,10 @@ blockquote:before, blockquote:after,q:before, q:after {content:'';content:none;}
 .inner:after {content: '';display: block;clear: both;}
 
 /* 공통 */
-select { border-radius:0; /* 아이폰 사파리 보더 없애기 */ -webkit-appearance:none; /* 화살표 없애기 for chrome*/ -moz-appearance:none; /* 화살표 없애기 for firefox*/ appearance:none /* 화살표 없애기 공통*/ ;border: 1px solid #c7cee1;background: url(../images/common/select_arrow.png) no-repeat right 10px center #fff;font-size: 16px;min-width: 90px;padding:7px  15px;padding-right: 35px;box-sizing: border-box;border-radius: 8px}
+select { border-radius:0; /* 아이폰 사파리 보더 없애기 */ -webkit-appearance:none; /* 화살표 없애기 for chrome*/ -moz-appearance:none; /* 화살표 없애기 for firefox*/ appearance:none /* 화살표 없애기 공통*/ ;background: url(../images/common/select_arrow.png) no-repeat right 10px center #fff;font-size: 16px;min-width: 90px;padding:7px  15px;padding-right: 35px;box-sizing: border-box;}
 select::-ms-expand{ display:none /* 화살표 없애기 for IE10, 11*/ }
 
-select.select_style01{border: 0;background: url(../images/sub/select_arrow.png) no-repeat right 15px center #fff;}
+select.select_style01{border: 1px solid #e2e2e2;background: url(../images/select_arrow.png) no-repeat right 15px center #fff;border-radius: 3px}
 
 /*font size*/
 .f13 {font-size:13px;}
