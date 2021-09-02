@@ -3,7 +3,7 @@
 /* 공통 css */
 html {font-size: 10px}
 body {font-size: 1.6rem}
-.ctain {position: relative;width: 1260px;margin: 0 auto;}
+.containerNew {position: relative;width: 1260px;margin: 0 auto;}
 .white{color: #fff}
 .btn_wrap {}
 .btn_wrap > *{display: inline-block;}
