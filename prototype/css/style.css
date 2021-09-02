@@ -468,7 +468,7 @@ left: 0;width: 100%;height: 100%;}
 .prototype.type01 .paging li:not(.btn_page) a:focus  {color: #ff1c31;font-weight: 500;}
 
 /* 소재지 */
-.prototype.type01 .map_wrap .location{display: flex;justify-content: center;align-items: center}
+.prototype.type01 .map_wrap .location{display: flex;justify-content: center;align-items: center;margin-bottom: 4.0rem}
 .prototype.type01 .map_wrap .location strong{font-size: 3.4rem;margin-right: 3.0rem}
 .prototype.type01 .map_wrap .location p {font-size: 2.8rem;font-weight: 500}
 
