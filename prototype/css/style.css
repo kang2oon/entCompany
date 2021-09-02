@@ -145,106 +145,106 @@ border-width: 7px 10px 7px 0;border-color: transparent #FFFFFF;display: block;wi
 .prototype.type01 .module01 .intro_text li .tit{font-size: 3.0rem;font-weight: bold;margin-top: 5px;}
 
 /*채용공고형 모듈 02 공고보기*/
-.prototype.type01 .module02{}
-.prototype.type01 .module02 .jobop_list{}
-.prototype.type01 .module02 .jobop_list table{width: 100%;table-layout:fixed;border-collapse: collapse;border: 1px solid #ddd}
-.prototype.type01 .module02 .jobop_list thead {border-top: 1px solid #ddd;}
-.prototype.type01 .module02 .jobop_list thead th {background: #f0f0f0;font-size: 2.2rem;padding: 2.5rem;}
-.prototype.type01 .module02 .jobop_list tr{border-bottom: 1px solid #ddd}
-.prototype.type01 .module02 .jobop_list td{padding: 2.0rem;font-size: 1.8rem;text-align: center;color: #696969}
-.prototype.type01 .module02 .jobop_list .btn{padding: 10px 20px;font-size: 1.6rem;color: #fff;background: #ff1c31;border-radius: 10px;margin-left: 1.5rem;}
-.prototype.type01 .module02 .jobop_view_wrap{background: url(../images/jp_md02_bg.png) no-repeat bottom;padding-bottom: 6.0rem}
-.prototype.type01 .module02 .jobop_view {background: #fff;border: 3px solid #437cff;padding: 6.0rem;}
-.prototype.type01 .module02 .jobop_view_top{display: flex;font-size: 2.4rem;font-weight: bold;border-bottom: 2px solid #000;margin-bottom: 3.0rem;padding-bottom: 3.0rem;}
-.prototype.type01 .module02 .jobop_view_top strong{width: 100px;}
-.prototype.type01 .module02 .jobop_view_top p {width: calc(100% - 100px)}
-.prototype.type01 .module02 .jobop_view_cont{display: flex;}
-.prototype.type01 .module02 .jobop_view_cont > div {flex: 1}
-.prototype.type01 .module02 .jobop_view_cont > div > .red{color:#ff1c31; font-size: 20px;font-weight: bold}
-.prototype.type01 .module02 .jobop_view_cont > div > ul li{display: flex;margin-top: 2.5rem;}
-.prototype.type01 .module02 .jobop_view_cont > div > ul li strong{font-size: 1.7rem;font-weight: 500;width: 100px}
-.prototype.type01 .module02 .jobop_view_cont > div > ul li .text{font-size: 1.7rem;color: #727272;font-weight: 500;width: calc(100% - 100px)}
+.prototype.type01 {}
+.prototype.type01  .jobop_list{}
+.prototype.type01  .jobop_list table{width: 100%;table-layout:fixed;border-collapse: collapse;border: 1px solid #ddd}
+.prototype.type01  .jobop_list thead {border-top: 1px solid #ddd;}
+.prototype.type01  .jobop_list thead th {background: #f0f0f0;font-size: 2.2rem;padding: 2.5rem;}
+.prototype.type01  .jobop_list tr{border-bottom: 1px solid #ddd}
+.prototype.type01  .jobop_list td{padding: 2.0rem;font-size: 1.8rem;text-align: center;color: #696969}
+.prototype.type01  .jobop_list .btn{padding: 10px 20px;font-size: 1.6rem;color: #fff;background: #ff1c31;border-radius: 10px;margin-left: 1.5rem;}
+.prototype.type01  .jobop_view_wrap{background: url(../images/jp_md02_bg.png) no-repeat bottom;padding-bottom: 6.0rem}
+.prototype.type01  .jobop_view {background: #fff;border: 3px solid #437cff;padding: 6.0rem;}
+.prototype.type01  .jobop_view_top{display: flex;font-size: 2.4rem;font-weight: bold;border-bottom: 2px solid #000;margin-bottom: 3.0rem;padding-bottom: 3.0rem;}
+.prototype.type01  .jobop_view_top strong{width: 100px;}
+.prototype.type01  .jobop_view_top p {width: calc(100% - 100px)}
+.prototype.type01  .jobop_view_cont{display: flex;}
+.prototype.type01  .jobop_view_cont > div {flex: 1}
+.prototype.type01  .jobop_view_cont > div > .red{color:#ff1c31; font-size: 20px;font-weight: bold}
+.prototype.type01  .jobop_view_cont > div > ul li{display: flex;margin-top: 2.5rem;}
+.prototype.type01  .jobop_view_cont > div > ul li strong{font-size: 1.7rem;font-weight: 500;width: 100px}
+.prototype.type01  .jobop_view_cont > div > ul li .text{font-size: 1.7rem;color: #727272;font-weight: 500;width: calc(100% - 100px)}
 
-/*채용공고형 모듈02 채용절차*/
-.prototype.type01 .module02 .job_step{margin: 8.0rem 0;display: flex;justify-content:space-between}
-.prototype.type01 .module02 .job_step .ico{width: 140px;height: 140px;display: block;border-radius: 50%;margin: auto;}
-.prototype.type01 .module02 .job_step p {color: #fff;font-size: 2.0rem;text-align: center;margin-top: 1.5rem;}
-.prototype.type01 .module02 .job_step .ico.ico01{background: url(../images/jp_md02_ico01.png) #fff no-repeat center;}
-.prototype.type01 .module02 .job_step .ico.ico02{background: url(../images/jp_md02_ico02.png) #fff no-repeat center;}
-.prototype.type01 .module02 .job_step .ico.ico03{background: url(../images/jp_md02_ico03.png) #fff no-repeat center;}
-.prototype.type01 .module02 .job_step .ico.ico04{background: url(../images/jp_md02_ico04.png) #fff no-repeat center;}
-.prototype.type01 .module02 .job_step  .arrow{display: block;text-indent: -9999px;background: url(../images/jp_md02_arrow.png) no-repeat center;width: 30px;height: 140px;margin: 0 40px}
+/*채용공고형 채용절차*/
+.prototype.type01  .job_step{margin: 8.0rem 0;display: flex;justify-content:space-between}
+.prototype.type01  .job_step .ico{width: 140px;height: 140px;display: block;border-radius: 50%;margin: auto;}
+.prototype.type01  .job_step p {color: #fff;font-size: 2.0rem;text-align: center;margin-top: 1.5rem;}
+.prototype.type01  .job_step .ico.ico01{background: url(../images/jp_md02_ico01.png) #fff no-repeat center;}
+.prototype.type01  .job_step .ico.ico02{background: url(../images/jp_md02_ico02.png) #fff no-repeat center;}
+.prototype.type01  .job_step .ico.ico03{background: url(../images/jp_md02_ico03.png) #fff no-repeat center;}
+.prototype.type01  .job_step .ico.ico04{background: url(../images/jp_md02_ico04.png) #fff no-repeat center;}
+.prototype.type01  .job_step  .arrow{display: block;text-indent: -9999px;background: url(../images/jp_md02_arrow.png) no-repeat center;width: 30px;height: 140px;margin: 0 40px}
 .prototype.type01 .module02 .big_btn{position: relative;}
 
 
-/*채용공고형 모듈03 자소서 문항별 작성가이드*/
-.prototype.type01 .module03.style01{}
-.prototype.type01 .module03.style01 .navy_bg {background: url(../images/jp_md03_bg.png) no-repeat left bottom;padding-bottom: 6.0rem}
-.prototype.type01 .module03.style01 .self_intro_wrap{background: #fff;padding: 5.0rem 7.0rem;border: 1px solid #ddd;position: relative;box-shadow: 2px 0px 7px rgba(0, 0, 0, 0.08)}
-.prototype.type01 .module03.style01 .self_intro_wrap .si_area {margin-bottom: 4.0rem;padding-bottom: 4.0rem;border-bottom: 1px solid #dddddd;}
-.prototype.type01 .module03.style01 .self_intro_wrap .si_area:last-child{border-bottom: 0;padding-bottom: 0}
-.prototype.type01 .module03.style01 .qnum{font-family: 'GmarketSansMedium';color:#437cff;font-size: 4.0rem; }
-.prototype.type01 .module03.style01 .tit {font-size: 2.4rem;font-weight: 400;margin: 10px 0}
-.prototype.type01 .module03.style01 .text {font-size: 2.0rem;color: #7d7d7d;}
-.prototype.type01 .module03.style01 .recent_question{background: #1a4fba;padding: 4.0rem 1.0rem;border-radius: 15px;position: relative;padding-bottom: 0;;overflow: hidden;display: flex;align-items: flex-end}
-.prototype.type01 .module03.style01 .rq_cont{text-align: center;padding-bottom: 4.0rem;width: calc(100% - 200px)}
-.prototype.type01 .module03.style01 .rq_tit{color: #fbff95;font-size: 4.0rem;font-family: 'GmarketSansMedium';position: relative;display: flex;align-items: center;margin-bottom: 2.0rem;justify-content: center;}
-.prototype.type01 .module03.style01 .rq_tit:after{content: '';display: inline-flex;background: url(../images/jp_md03_si_ico.png) no-repeat center;width: 58px;height: 52px;margin-left: 2.0rem}
+/*채용공고형 모듈02 자소서 문항별 작성가이드*/
+.prototype.type01 .module02.style01{}
+.prototype.type01 .module02.style01 .navy_bg {background: url(../images/jp_md03_bg.png) no-repeat left bottom;padding:6.0rem}
+.prototype.type01 .module02.style01 .self_intro_wrap{background: #fff;padding: 5.0rem 7.0rem;border: 1px solid #ddd;position: relative;box-shadow: 2px 0px 7px rgba(0, 0, 0, 0.08)}
+.prototype.type01 .module02.style01 .self_intro_wrap .si_area {margin-bottom: 4.0rem;padding-bottom: 4.0rem;border-bottom: 1px solid #dddddd;}
+.prototype.type01 .module02.style01 .self_intro_wrap .si_area:last-child{border-bottom: 0;padding-bottom: 0}
+.prototype.type01 .module02.style01 .qnum{font-family: 'GmarketSansMedium';color:#437cff;font-size: 4.0rem; }
+.prototype.type01 .module02.style01 .tit {font-size: 2.4rem;font-weight: 400;margin: 10px 0}
+.prototype.type01 .module02.style01 .text {font-size: 2.0rem;color: #7d7d7d;}
+.prototype.type01 .module02.style01 .recent_question{background: #1a4fba;padding: 4.0rem 1.0rem;border-radius: 15px;position: relative;padding-bottom: 0;;overflow: hidden;display: flex;align-items: flex-end}
+.prototype.type01 .module02.style01 .rq_cont{text-align: center;padding-bottom: 4.0rem;width: calc(100% - 200px)}
+.prototype.type01 .module02.style01 .rq_tit{color: #fbff95;font-size: 4.0rem;font-family: 'GmarketSansMedium';position: relative;display: flex;align-items: center;margin-bottom: 2.0rem;justify-content: center;}
+.prototype.type01 .module02.style01 .rq_tit:after{content: '';display: inline-flex;background: url(../images/jp_md03_si_ico.png) no-repeat center;width: 58px;height: 52px;margin-left: 2.0rem}
 
-.prototype.type01 .module03.style01 .rq_text{color: #fff;}
-.prototype.type01 .module03.style01 .rq_text p {font-size: 1.9rem;}
-.prototype.type01 .module03.style01 .rq_text p strong{font-size: 3.0rem;}
-.prototype.type01 .module03.style01 .rq_img{margin-bottom: -15px}
-.prototype.type01 .module03.style01 .rq_img img{width: 100%;}
-.prototype.type01 .module03.style01 .md3_warp{}
-.prototype.type01 .module03.style01 .md3_warp ul{}
-.prototype.type01 .module03.style01 .md3_warp ul li{display: flex;font-size: 24px;margin-bottom: 1.5rem;}
-.prototype.type01 .module03.style01 .md3_warp ul{}
-.prototype.type01 .module03.style01 .md3_warp ul li:last-child{margin-bottom: 0;}
-.prototype.type01 .module03.style01 .md3_warp ul li strong{width: 180px;font-weight: 400;}
-.prototype.type01 .module03.style01 .md3_warp ul li  p {width: calc(100% - 180px);color:#7b7b7b;font-weight: 300;}
-.prototype.type01 .module03.style01 .md3_warp.md3_adImmg .white_box{position: relative;display: flex;align-items: center;}
-.prototype.type01 .module03.style01 .md3_warp.md3_adImmg .white_box:after{content: '';display: block;background: url(../images/jp_md03_img.png) no-repeat;width: 300px;height: 270px;position: absolute;right: 10px;top: -270px;background-size: 292.5px}
-.prototype.type01 .module03.style01 .md3_warp.md3_adImmg .white_box .txt{width: calc(100% - 500px);}
-.prototype.type01 .module03.style01 .md3_warp.md3_adImmg .white_box .radar_chart{width: 450px;}
-.prototype.type01 .module03.style01 .radar_chart .bb-chart-radars .bb-shapes polygon{fill-opacity: 0 !important;stroke-width:3}
-.prototype.type01 .module03.style01 .radar_chart .bb-chart-radars .bb-axis text{font-family: 'Noto Sans KR';font-size: 1.6rem;fill: #555;}
-.prototype.type01 .module03.style01 .radar_chart  svg{overflow: visible !important;}
-.prototype.type01 .module03.style01 .radar_chart  .bb-levels polygon {stroke:#dcdcdc;stroke-width:2}
+.prototype.type01 .module02.style01 .rq_text{color: #fff;}
+.prototype.type01 .module02.style01 .rq_text p {font-size: 1.9rem;}
+.prototype.type01 .module02.style01 .rq_text p strong{font-size: 3.0rem;}
+.prototype.type01 .module02.style01 .rq_img{margin-bottom: -15px}
+.prototype.type01 .module02.style01 .rq_img img{width: 100%;}
+.prototype.type01 .module02.style01 .add_point{}
+.prototype.type01 .module02.style01 .add_point ul{}
+.prototype.type01 .module02.style01 .add_point ul li{display: flex;font-size: 24px;margin-bottom: 1.5rem;}
+.prototype.type01 .module02.style01 .add_point ul{}
+.prototype.type01 .module02.style01 .add_point ul li:last-child{margin-bottom: 0;}
+.prototype.type01 .module02.style01 .add_point ul li strong{width: 180px;font-weight: 400;}
+.prototype.type01 .module02.style01 .add_point ul li  p {width: calc(100% - 180px);color:#7b7b7b;font-weight: 300;}
+.prototype.type01 .module02.style01 .add_point.adImmg .white_box{position: relative;display: flex;align-items: center;}
+.prototype.type01 .module02.style01 .add_point.adImmg .white_box:after{content: '';display: block;background: url(../images/jp_md03_img.png) no-repeat;width: 300px;height: 270px;position: absolute;right: 10px;top: -270px;background-size: 292.5px}
+.prototype.type01 .module02.style01 .add_point.adImmg .white_box .txt{width: calc(100% - 500px);}
+.prototype.type01 .module02.style01 .add_point.adImmg .white_box .radar_chart{width: 450px;}
+.prototype.type01 .module02.style01 .radar_chart .bb-chart-radars .bb-shapes polygon{fill-opacity: 0 !important;stroke-width:3}
+.prototype.type01 .module02.style01 .radar_chart .bb-chart-radars .bb-axis text{font-family: 'Noto Sans KR';font-size: 1.6rem;fill: #555;}
+.prototype.type01 .module02.style01 .radar_chart  svg{overflow: visible !important;}
+.prototype.type01 .module02.style01 .radar_chart  .bb-levels polygon {stroke:#dcdcdc;stroke-width:2}
 .prototype.type01 .module03.style01 .radar_chart  .bb-axis line{stroke:#fff;}
 
 
 /*채용공고형 모듈03 채용 꿀팁*/
-.prototype.type01 .module03.style01 .blue_bg{background: #9dd7ff}
-.prototype.type01 .module03.style01 .ty2{border: 3px solid #437cff;overflow: hidden;}
-.prototype.type01 .module03.style01 .ty2:after{content: '';display: block;background: url(../images/jp_md03_bg02.png) no-repeat;position: absolute;right: 0;top: 0;width: 160px;height: 160px}
-.prototype.type01 .module03.style01 .ty2:before{content: '';display: block;background: url(../images/jp_md03_img02.png);width: 279px;height: 302px;position: absolute;right: 20px;bottom: 0}
-.prototype.type01 .module03.style01 .ty2 .si_area:last-child{width: calc(100% - 350px)}
-.prototype.type01 .module03.style01  .btn {margin-top: 3.0rem}
+.prototype.type01 .module02.style01 .blue_bg{background: #9dd7ff}
+.prototype.type01 .module02.style01 .ty2{border: 3px solid #437cff;overflow: hidden;}
+.prototype.type01 .module02.style01 .ty2:after{content: '';display: block;background: url(../images/jp_md03_bg02.png) no-repeat;position: absolute;right: 0;top: 0;width: 160px;height: 160px}
+.prototype.type01 .module02.style01 .ty2:before{content: '';display: block;background: url(../images/jp_md03_img02.png);width: 279px;height: 302px;position: absolute;right: 20px;bottom: 0}
+.prototype.type01 .module02.style01 .ty2 .si_area:last-child{width: calc(100% - 350px)}
+.prototype.type01 .module02.style01  .btn {margin-top: 3.0rem}
 
 /*채용공고형 모듈04 기업 SWOT 분석*/
-.prototype.type01 .module04.style01 {}
-.prototype.type01 .module04.style01  .black_bg{background: #292929}
-.prototype.type01 .module04.style01 .swot_wrap{display: flex;justify-content: space-around;margin-top: 8.0rem;align-items: center}
-.prototype.type01 .module04.style01 .diagram_area{position: relative;} 
-.prototype.type01 .module04.style01 .diagram_area:after{content: '';display: block;width: 325px;height: 325px;border: 2px solid #fff;position: absolute;top: 50%;left: 50%;transform:translate(-50%,-50%) rotate(45deg);z-index: 0}
-.prototype.type01 .module04.style01 .diagram_area ul {display: flex;flex-wrap: wrap;width: 380px;position: relative;z-index: 1}
-.prototype.type01 .module04.style01 .diagram_area ul li{width: 180px;height: 180px;position: relative;border-radius: 20px;color: #fff;text-align: center;font-size: 1.7rem;margin-right: 20px;margin-top: 20px}
-.prototype.type01 .module04.style01 .diagram_area ul li strong{display: block;font-size: 5.0rem;font-family: 'GmarketSansMedium'}
-.prototype.type01 .module04.style01 .diagram_area ul li p {position: absolute;width: 100%;top: 50%;transform: translateY(-50%)}
-.prototype.type01 .module04.style01 .diagram_area ul li:nth-child(2n){margin-right: 0}
-.prototype.type01 .module04.style01 .diagram_area ul li:nth-child(1){background:#437cff}
-.prototype.type01 .module04.style01 .diagram_area ul li:nth-child(2){background:#ff1c31 }
-.prototype.type01 .module04.style01 .diagram_area ul li:nth-child(3){background:#2a71b9 }
-.prototype.type01 .module04.style01 .diagram_area ul li:nth-child(4){background:#00b9a1 }
-.prototype.type01 .module04.style01 .swot_wrap .txt{}
-.prototype.type01 .module04.style01 .swot_wrap .txt li{color: #fff;margin-bottom: 3.0rem;font-size: 2.0rem;}
-.prototype.type01 .module04.style01 .swot_wrap .txt li:last-child{margin-bottom: 0}
-.prototype.type01 .module04.style01 .swot_wrap .txt li strong{font-weight: 500;margin-bottom: 0.5rem;display: block;}
-.prototype.type01 .module04.style01 .swot_wrap .txt li:nth-child(1) strong{color: #437cff}
-.prototype.type01 .module04.style01 .swot_wrap .txt li:nth-child(2) strong{color: #ff1c31}
-.prototype.type01 .module04.style01 .swot_wrap .txt li:nth-child(3) strong{color: #2a71b9}
-.prototype.type01 .module04.style01 .swot_wrap .txt li:nth-child(4) strong{color: #00b9a1}
+.prototype.type01 .module03.style01 {}
+.prototype.type01 .module03.style01  .black_bg{background: #292929}
+.prototype.type01 .module03.style01 .swot_wrap{display: flex;justify-content: space-around;margin-top: 8.0rem;align-items: center}
+.prototype.type01 .module03.style01 .diagram_area{position: relative;} 
+.prototype.type01 .module03.style01 .diagram_area:after{content: '';display: block;width: 325px;height: 325px;border: 2px solid #fff;position: absolute;top: 50%;left: 50%;transform:translate(-50%,-50%) rotate(45deg);z-index: 0}
+.prototype.type01 .module03.style01 .diagram_area ul {display: flex;flex-wrap: wrap;width: 380px;position: relative;z-index: 1}
+.prototype.type01 .module03.style01 .diagram_area ul li{width: 180px;height: 180px;position: relative;border-radius: 20px;color: #fff;text-align: center;font-size: 1.7rem;margin-right: 20px;margin-top: 20px}
+.prototype.type01 .module03.style01 .diagram_area ul li strong{display: block;font-size: 5.0rem;font-family: 'GmarketSansMedium'}
+.prototype.type01 .module03.style01 .diagram_area ul li p {position: absolute;width: 100%;top: 50%;transform: translateY(-50%)}
+.prototype.type01 .module03.style01 .diagram_area ul li:nth-child(2n){margin-right: 0}
+.prototype.type01 .module03.style01 .diagram_area ul li:nth-child(1){background:#437cff}
+.prototype.type01 .module03.style01 .diagram_area ul li:nth-child(2){background:#ff1c31 }
+.prototype.type01 .module03.style01 .diagram_area ul li:nth-child(3){background:#2a71b9 }
+.prototype.type01 .module03.style01 .diagram_area ul li:nth-child(4){background:#00b9a1 }
+.prototype.type01 .module03.style01 .swot_wrap .txt{}
+.prototype.type01 .module03.style01 .swot_wrap .txt li{color: #fff;margin-bottom: 3.0rem;font-size: 2.0rem;}
+.prototype.type01 .module03.style01 .swot_wrap .txt li:last-child{margin-bottom: 0}
+.prototype.type01 .module03.style01 .swot_wrap .txt li strong{font-weight: 500;margin-bottom: 0.5rem;display: block;}
+.prototype.type01 .module03.style01 .swot_wrap .txt li:nth-child(1) strong{color: #437cff}
+.prototype.type01 .module03.style01 .swot_wrap .txt li:nth-child(2) strong{color: #ff1c31}
+.prototype.type01 .module03.style01 .swot_wrap .txt li:nth-child(3) strong{color: #2a71b9}
+.prototype.type01 .module03.style01 .swot_wrap .txt li:nth-child(4) strong{color: #00b9a1}
 
 
 .prototype.type01 .module04.style01 .company_sale_wrap{background: url(../images/jp_md04_bg.png) no-repeat bottom;padding-bottom: 320px}
@@ -326,20 +326,13 @@ border-width: 7px 10px 7px 0;border-color: transparent #FFFFFF;display: block;wi
 .prototype.type01  .module04.style01 .local_rank_wrap .lank_img > div p strong{font-size: 4.2rem}
 
 /*프로토타입 모듈5*/
-.prototype .slider01{position: relative;}
-.prototype .slider01 .slick-arrow{display: block;position: absolute;width: 30px;height: 55px;text-indent: -9999px;top: 50%;transform: translateY(-50%);opacity: 0.5}
-.prototype .slider01 .slick-prev{background: url(../images/slider01_prev.png) no-repeat;left: 0;} 
-.prototype .slider01 .slick-next{background: url(../images/slider01_next.png) no-repeat;right: 0;} 
-
 .prototype.type01  .module05 .welfare .tit {font-size: 2.0rem;font-weight: bold}
 .prototype.type01  .module05 .welfare ul {}
 .prototype.type01  .module05 .welfare ul li{font-size: 1.7rem;color: #727272;position: relative;padding-left: 10px;margin-bottom: 5px}
 .prototype.type01  .module05 .welfare ul li:last-child{margin-bottom: 0}
 .prototype.type01  .module05 .welfare ul li:before{content: '-';position: absolute;left: 0;top: 1px;}
 
-.prototype.type01  .module05.style01  {}
-.prototype.type01  .module05.style01  .slider01{text-align: center;margin: 4.0rem 0}
-.prototype.type01  .module05.style01  .slider01 img {margin: auto;}
+
 .prototype.type01  .module05.style01 .welfare{display: flex;justify-content: space-between;margin: 4.0rem 0}
 .prototype.type01  .module05.style01 .welfare > div {display: flex;}
 .prototype.type01  .module05.style01 .welfare .cont{margin-left: 3.0rem;margin-top: 1.5rem}
@@ -356,34 +349,43 @@ border-width: 7px 10px 7px 0;border-color: transparent #FFFFFF;display: block;wi
 .prototype.type01 .module05.style01 .company_gallery div:nth-child(3n){margin-right: 0}
 
 /*현직자 복지 사용후기 */
-.prototype.type01 .module06.style01{background: url(../images/jp_md06_style01_bg.png) no-repeat top}
-.prototype.type01 .review{display: flex;}
-.prototype.type01 .module06 .review .top p{margin-bottom: 1.5rem;}
-.prototype.type01 .module06 .review .cont {margin-left:3.0rem;}
+.prototype.type01 .module05.style01{}
+.prototype.type01 .module05.style01 .welfare_review_wrap{background: #fff3c3}
+.prototype.type01 .welfare_review{display: flex;}
+.prototype.type01 .module05 .welfare_review .top p{margin-bottom: 1.5rem;}
+.prototype.type01 .module05 .welfare_review .cont {margin-left:3.0rem;}
 
-.prototype.type01 .module06.style01 .review .img {width: 150px;height: 150px;border: 1px solid #ddd;border-radius: 10px;box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1)}
-.prototype.type01 .module06.style01 .review .cont {width: calc(100% - 180px)}
-.prototype.type01 .module06.style01 .review .top p{font-size: 2.2rem;font-weight: bold;word-break: keep-all}
-.prototype.type01 .module06.style01 .review .bottom p{font-size: 1.7rem;color: #727272}
+.prototype.type01 .module05.style01 .welfare_review .img {width: 150px;height: 150px;border: 1px solid #ddd;border-radius: 10px;box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1)}
+.prototype.type01 .module05.style01 .welfare_review .cont {width: calc(100% - 180px)}
+.prototype.type01 .module05.style01 .welfare_review .top p{font-size: 2.2rem;font-weight: bold;word-break: keep-all}
+.prototype.type01 .module05.style01 .welfare_review .bottom p{font-size: 1.7rem;color: #727272}
 
 /*연봉정보*/
-.prototype.type01 .module06 .salary{display: flex;justify-content: space-between;}
-.prototype.type01 .module06 .salary > div{width: calc(50% - 50px)}
-.prototype.type01 .module06 .salary .barChart02 .active{fill:#ff2e69 !important}
+.prototype.type01 .module05 .salary{display: flex;justify-content: space-between;}
+.prototype.type01 .module05 .salary > div{width: calc(50% - 50px)}
+.prototype.type01 .module05 .salary .barChart02 .active{fill:#ff2e69 !important}
 
-.prototype.type01 .module06 .salary .select_list{display: flex;}
-.prototype.type01 .module06 .salary .select_list li{margin-right: 1.0rem}
-.prototype.type01 .module06 .salary .select_list li:last-child{margin-right: 0}
-.prototype.type01 .module06 .salary  .salary_cont{display: flex;margin-top: 5.0rem}
-.prototype.type01 .module06 .salary  .salary_cont .txt{font-size: 1.7rem;}
-.prototype.type01 .module06 .salary  .salary_cont strong{font-size: 3.0rem}
+.prototype.type01 .module05 .salary .select_list{display: flex;}
+.prototype.type01 .module05 .salary .select_list li{margin-right: 1.0rem}
+.prototype.type01 .module05 .salary .select_list li:last-child{margin-right: 0}
+.prototype.type01 .module05 .salary  .salary_cont{display: flex;margin-top: 5.0rem}
+.prototype.type01 .module05 .salary  .salary_cont .txt{font-size: 1.7rem;}
+.prototype.type01 .module05 .salary  .salary_cont strong{font-size: 3.0rem}
 
-.prototype.type01 .module06.style01 .salary  .salary_cont div{border-right: 1px solid #ddd;padding-right: 4.0rem;margin-right: 4.0rem;text-align: center}
-.prototype.type01 .module06.style01 .salary  .salary_cont div:last-child{border-right: 0}
-.prototype.type01 .module06.style01 .salary  .salary_cont div:first-child .txt{margin-bottom: 1.0rem}
-.prototype.type01 .module06.style01 .salary  .salary_cont .txt{color: #727272;font-weight: 400}
-.prototype.type01 .module06.style01 .salary  .salary_cont div:last-child strong{color: #ff2e69}
+.prototype.type01 .module05.style01 .salary  .salary_cont div{border-right: 1px solid #ddd;padding-right: 4.0rem;margin-right: 4.0rem;text-align: center}
+.prototype.type01 .module05.style01 .salary  .salary_cont div:last-child{border-right: 0}
+.prototype.type01 .module05.style01 .salary  .salary_cont div:first-child .txt{margin-bottom: 1.0rem}
+.prototype.type01 .module05.style01 .salary  .salary_cont .txt{color: #727272;font-weight: 400}
+.prototype.type01 .module05.style01 .salary  .salary_cont div:last-child strong{color: #ff2e69}
 
+
+.prototype .slider01{position: relative;}
+.prototype .slider01 .slick-arrow{display: block;position: absolute;width: 30px;height: 55px;text-indent: -9999px;top: 50%;transform: translateY(-50%);opacity: 0.5}
+.prototype.type01  .module06.style01  {}
+.prototype.type01  .module06.style01  .slider01{text-align: center;margin: 4.0rem 0}
+.prototype.type01  .module06.style01  .slider01 img {margin: auto;}
+.prototype .slider01 .slick-prev{background: url(../images/slider01_prev.png) no-repeat;left: 0;} 
+.prototype .slider01 .slick-next{background: url(../images/slider01_next.png) no-repeat;right: 0;} 
 .prototype.type01 .module06 .video_wrap{position: relative;padding-bottom: 56.25%;padding-top: 25px;height: 0;}
 .prototype.type01 .module06 .video_wrap iframe {position: absolute;top: 0;
 left: 0;width: 100%;height: 100%;}
@@ -403,53 +405,52 @@ left: 0;width: 100%;height: 100%;}
 .prototype.type01  .module07.style01 .ceo_interview .img  img{display: block;}
 
 /* 채용 담당자 인터뷰 + 신입사원 인터뷰 */
-.prototype.type01 .module08.style01{background: #0c2c76}
-.prototype.type01 .module08.style01 .tit01{color: #fff;}
-.prototype.type01 .module08.style01 .recruiter_interview,
-.prototype.type01 .module09.style01 .recruiter_interview{display: flex;}
-.prototype.type01 .module08.style01 .recruiter_interview div,
-.prototype.type01 .module09.style01 .recruiter_interview div{background: #fff;padding: 5.0rem;width: calc(33.333% - 26.666px);margin-right: 40px;}
-.prototype.type01 .module08.style01 .recruiter_interview div:last-child,
-.prototype.type01 .module09.style01 .recruiter_interview div:last-child{margin-right: 0}
-.prototype.type01 .module08.style01 .recruiter_interview .qnum,
-.prototype.type01 .module09.style01 .recruiter_interview .qnum{font-family: 'GmarketSansMedium';color:#437cff;font-size: 4.0rem;display: block;margin-bottom: 5px}
-.prototype.type01 .module08.style01 .recruiter_interview p,
-.prototype.type01 .module09.style01 .recruiter_interview p{font-size:2.2rem;word-break: keep-all}
-.prototype.type01 .module08.style01 .recruiter_interview .in_img,
-.prototype.type01 .module09.style01 .recruiter_interview .in_img{position: relative;padding-bottom: 200px;}
-.prototype.type01 .module08.style01 .recruiter_interview .in_img img{display: block;position: absolute;bottom: 0;left: 5.0rem}
+.prototype.type01 .module07.style01 .recruiter_interview_wrap{background: #0c2c76;padding: 6.0rem 0}
+.prototype.type01 .module07.style01 .recruiter_interview_wrap .tit01{color: #fff;}
+.prototype.type01 .module07.style01 .recruiter_interview,
+.prototype.type01 .module07.style01 .recruiter_interview{display: flex;}
+.prototype.type01 .module07.style01 .recruiter_interview div,
+.prototype.type01 .module07.style01 .recruiter_interview div{background: #fff;padding: 5.0rem;width: calc(33.333% - 26.666px);margin-right: 40px;}
+.prototype.type01 .module07.style01 .recruiter_interview div:last-child,
+.prototype.type01 .module07.style01 .recruiter_interview div:last-child{margin-right: 0}
+.prototype.type01 .module07.style01 .recruiter_interview .qnum,
+.prototype.type01 .module07.style01 .recruiter_interview .qnum{font-family: 'GmarketSansMedium';color:#437cff;font-size: 4.0rem;display: block;margin-bottom: 5px}
+.prototype.type01 .module07.style01 .recruiter_interview p,
+.prototype.type01 .module07.style01 .recruiter_interview p{font-size:2.2rem;word-break: keep-all}
+.prototype.type01 .module07.style01 .recruiter_interview .in_img,
+.prototype.type01 .module07.style01 .recruiter_interview .in_img{position: relative;padding-bottom: 200px;}
+.prototype.type01 .module07.style01 .recruiter_interview .in_img img{display: block;position: absolute;bottom: 0;left: 5.0rem}
 
 /* 신입사원 인터뷰*/
-.prototype.type01 .module09.style01  {background: #292929;}
-.prototype.type01 .module09.style01 .qnum{color: #ff7521 !important;}
-.prototype.type01 .module09.style01 .in_img img{position: absolute;right: 5.0rem;bottom: 0;display: block;}
+.prototype.type01 .module07.style01 .recruiter_interview_wrap02  {background: #292929;}
+.prototype.type01 .module07.style01 .recruiter_interview_wrap02 .qnum{color: #ff7521 !important;}
+.prototype.type01 .module07.style01 .recruiter_interview_wrap02 .in_img img{position: absolute;right: 5.0rem;bottom: 0;display: block;}
 
 
 /* 전현직자 리뷰 */
-.prototype.type01 .module10.style01{background: url(../images/jp_md10_bg.png) no-repeat center}
-.prototype.type01 .module10.style01 .former_review > div{display: flex;margin-bottom: 3.0rem}
-.prototype.type01 .module10.style01 .former_review > div:last-child{margin-bottom: 0}
-.prototype.type01 .module10.style01 .former_review .img{width: 150px;height: 150px;margin-right: 30px;border-radius: 10px;overflow: hidden}
-.prototype.type01 .module10.style01 .former_review .txt{width: calc(100% - 180px)}
-.prototype.type01 .module10.style01 .former_review ul {display: flex;margin-bottom: 1.5rem}
-.prototype.type01 .module10.style01 .former_review ul li{font-size: 2.0rem;color: #7b7b7b;position: relative;align-items: center;}
-.prototype.type01 .module10.style01 .former_review ul li:after{content: '|';margin: 0 20px;font-size: 1.7rem;display: inline-block;vertical-align: top}
-.prototype.type01 .module10.style01 .former_review ul li:last-child:after{display: none}
-.prototype.type01 .module10.style01 .former_review .highlight{color: #ff1c31}
+.prototype.type01 .module07.style01 .former_review_wrap{background: url(../images/jp_md10_bg.png) no-repeat center;padding: 6.0rem 0}
+.prototype.type01 .module07.style01 .former_review > div{display: flex;margin-bottom: 3.0rem}
+.prototype.type01 .module07.style01 .former_review > div:last-child{margin-bottom: 0}
+.prototype.type01 .module07.style01 .former_review .img{width: 150px;height: 150px;margin-right: 30px;border-radius: 10px;overflow: hidden}
+.prototype.type01 .module07.style01 .former_review .txt{width: calc(100% - 180px)}
+.prototype.type01 .module07.style01 .former_review ul {display: flex;margin-bottom: 1.5rem}
+.prototype.type01 .module07.style01 .former_review ul li{font-size: 2.0rem;color: #7b7b7b;position: relative;align-items: center;}
+.prototype.type01 .module07.style01 .former_review ul li:after{content: '|';margin: 0 20px;font-size: 1.7rem;display: inline-block;vertical-align: top}
+.prototype.type01 .module07.style01 .former_review ul li:last-child:after{display: none}
+.prototype.type01 .module07.style01 .former_review .highlight{color: #ff1c31}
 
 
 /* 기업 뉴스 */
-.prototype.type01 .module11.style01 {}
-.prototype.type01 .module11.style01 .news > a{display: flex;border-bottom: 1px solid #ddd;padding-bottom: 3.0rem;margin-bottom: 3.0rem;}
-.prototype.type01 .module11.style01 .news > a:last-child{margin-bottom: 0;padding-bottom: 0;border-bottom: 0}
-.prototype.type01 .module11.style01 .news > a:hover .txt,
-.prototype.type01 .module11.style01 .news > a:active .txt,
-.prototype.type01 .module11.style01 .news > a:focus .txt{text-decoration: underline}
-.prototype.type01 .module11.style01 .news .img{border-radius: 10px;overflow: hidden;width: 420px;height: 220px; margin-right: 30px;}
-.prototype.type01 .module11.style01 .news  .cont{width: calc(100% - 430px);display: flex;flex-direction: column}
-.prototype.type01 .module11.style01 .news  .cont .tit{font-size: 2.4rem;font-weight: 500;margin-bottom: 1.5rem;white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
-.prototype.type01 .module11.style01 .news  .cont .txt{overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 3; /* 라인수 */ -webkit-box-orient: vertical; word-wrap:break-word; line-height: 1.6em; height: 4.8em;font-size: 1.8rem;color: #6f6f6f}
-.prototype.type01 .module11.style01 .news  .cont  .date{margin-top: auto;color: #6f6f6f;font-size: 1.8rem;}
+.prototype.type01 .news > a{display: flex;border-bottom: 1px solid #ddd;padding-bottom: 3.0rem;margin-bottom: 3.0rem;}
+.prototype.type01 .news > a:last-child{margin-bottom: 0;padding-bottom: 0;border-bottom: 0}
+.prototype.type01 .news > a:hover .txt,
+.prototype.type01 .news > a:active .txt,
+.prototype.type01 .news > a:focus .txt{text-decoration: underline}
+.prototype.type01 .news .img{border-radius: 10px;overflow: hidden;width: 420px;height: 220px; margin-right: 30px;}
+.prototype.type01 .news  .cont{width: calc(100% - 430px);display: flex;flex-direction: column}
+.prototype.type01 .news  .cont .tit{font-size: 2.4rem;font-weight: 500;margin-bottom: 1.5rem;white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+.prototype.type01 .news  .cont .txt{overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 3; /* 라인수 */ -webkit-box-orient: vertical; word-wrap:break-word; line-height: 1.6em; height: 4.8em;font-size: 1.8rem;color: #6f6f6f}
+.prototype.type01  .news  .cont  .date{margin-top: auto;color: #6f6f6f;font-size: 1.8rem;}
 
 /* 페이징*/
 .prototype .paging{display: flex;justify-content: center;margin-top: 5.0rem;align-items: center;}
@@ -467,9 +468,9 @@ left: 0;width: 100%;height: 100%;}
 .prototype.type01 .paging li:not(.btn_page) a:focus  {color: #ff1c31;font-weight: 500;}
 
 /* 소재지 */
-.prototype.type01 .module12 .location{display: flex;justify-content: center;align-items: center}
-.prototype.type01 .module12 .location strong{font-size: 3.4rem;margin-right: 3.0rem}
-.prototype.type01 .module12 .location p {font-size: 2.8rem;font-weight: 500}
+.prototype.type01 .map_wrap .location{display: flex;justify-content: center;align-items: center}
+.prototype.type01 .map_wrap .location strong{font-size: 3.4rem;margin-right: 3.0rem}
+.prototype.type01 .map_wrap .location p {font-size: 2.8rem;font-weight: 500}
 
 /*---------- 프로토타입 : 2_브로슈어형 start---------------*/
 .prototype.type02{}
