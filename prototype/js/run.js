@@ -10,7 +10,7 @@ $(document).ready(function () {
 
 	var sections = $('.target'),
 		nav = $('.float_menu'),
-		nav_height = nav.outerHeight();
+		nav_height = nav.innerHeight();
 
 	$(window).on('scroll', function () {
 		var cur_pos = $(this).scrollTop();
@@ -46,15 +46,12 @@ $(document).ready(function () {
 	})
 
 
-	var winHeight = window.innerHeight;
 	$(window).on('scroll', function () {
 		//스크롤의 위치가 상단에서 190보다 크면
-		if ($(window).scrollTop() > innerHeight) {
+		if ($(window).scrollTop() > 244) {
 			$('.float_menu').addClass("fixed");
-			//위의 if문에 대한 조건 만족시 fixed라는 class를 부여함
 		} else {
 			$('.float_menu').removeClass("fixed");
-			//위의 if문에 대한 조건 아닌경우 fixed라는 class를 삭제함
 		}
 	});
 

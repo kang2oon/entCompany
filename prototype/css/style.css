@@ -40,10 +40,10 @@ button{font-family: 'Noto Sans KR'}
 .prototype .btn{display: inline-block;}
 
 .prototype  .header_wrap{ transition: top 1s linear;}
-.prototype  .header_wrap .float_menu.fixed{position: fixed;top: 0;left: 0;width: 100%;z-index: 555;} 
 
 /* 프로토타입 상단 플로팅 메뉴 */
-.prototype .float_menu{}
+.prototype .float_menu{transition: all ease-in-out 0.5s;position: relative}
+.prototype .float_menu.fixed{position: fixed;top: 0;left: 0;width: 100%;z-index: 555;} 
 .prototype .float_menu ul{display: flex;}
 .prototype .float_menu ul li{font-size: 1.8rem;;}
 .prototype .float_menu ul li a{display: block;}
