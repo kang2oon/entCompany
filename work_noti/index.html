@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>회원통합작업 중 안내</title>
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:@300;400;500;700&display=swap" rel="stylesheet">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js" ></script>
+	<style>
+		html,body{margin:0;padding:0;font-family:'Noto Sans KR', sans-serif;line-height:1.5;background:#f8f8f8;}
+        .wrap{
+            position:relative;left:50%;top:150px;transform:translateX(-50%);
+            width:960px;height:480px;border-radius:16px;padding:60px;box-sizing:border-box;
+            background:#fff url(bg_work_noti_s.png) no-repeat right bottom;
+        }
+        .wrap h1{font-size:36px;font-weight:500;margin:0;}
+        .wrap h1 span{font-weight:700;color:#129bf0;}
+        .wrap p{margin:8px 0 40px;font-size:15px;}
+        .wrap p span{color:#129bf0;}
+        .wrap div{background:rgba(0,0,0,.025);border-radius:12px;box-sizing:border-box;padding:12px 40px 12px 12px;display:inline-block;}
+        .wrap div ul li{font-size:15px;}
+        .wrap div ul li + li{margin-top:4px;}
+        .wrap div ul li ul li{font-size:14px;}
+        @media all and (max-width:1024px){
+            .wrap{width:82%;height:auto;top:80px;padding:40px 40px 180px;}
+            .wrap div{background:rgba(0,0,0,.07);}
+        }
+        @media all and (max-width:768px){
+            .wrap{padding:40px 40px 240px;}
+        }
+        @media all and (max-width:440px){
+            .wrap{width:90%;top:24px;padding:32px 32px 200px;}
+            .wrap h1{font-size:24px;}
+            .wrap p{font-size:14px;}
+            .wrap div{padding:8px 32px 8px 8px;}
+            .wrap div ul li strong{display:block;}
+        }
+	</style>
+</head>
+<body>
+    <div class="wrap">
+        <h1>현재 <span>시스템 작업 중</span>입니다.</h1>
+        <p>이용에 불편을 드려 죄송합니다. 현재 아래와 같이 <span>회원시스템 통합작업 진행 중</span>입니다.<br/>이용에 지장이 없도록 예정된 시간 내에 최선을 다해 작업하겠습니다.</p>
+        <div>
+            <ul>
+                <li><strong>작업내용 : </strong>경기도일자리재단 회원통합 작업</li>
+                <li><strong>예정시간 : </strong>2022년 5월 26일(목) 18시 ~ 2022년 5월 27일(금) 06시</li>
+                <li><strong>대상시스템 : </strong>4개 시스템
+                    <ul>
+                        <li>일자리플랫폼 잡아바</li>
+                        <li>통합접수시스템</li>
+                        <li>경기도 청년 노동자 지원사업</li>
+                        <li>경기도일자리재단 학사관리시스템</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
